@@ -1,3 +1,4 @@
+
 /*-----------------Fonts-----------------*/
 @font-face {
 	font-family: 'TTNorms-Bold';
@@ -397,13 +398,13 @@ background-color:  #EDD5D0;
     transition: 0.5s;
 }
 
+
 .main_btn:hover {
     -ms-transform: scale(1.05, 1.05);
     -webkit-transform: scale(1.05, 1.05);
     transform: scale(1.05, 1.05);
-
-
 }
+
 
 .main_btnicon {
     margin-left: 10px;
@@ -602,7 +603,6 @@ padding-top: 11.7rem;
   margin-bottom: 178px;
   display: flex;
   flex-direction: column;
-  position: relative;
 }
 
 .block__header {
@@ -688,36 +688,35 @@ padding-top: 11.7rem;
   display: flex;
   max-width: 1125px;
   align-self: center;
+  position: relative;
 }
-.description__note {
-  display: flex;
-  flex-direction: column;
-  position: absolute;
-  z-index: 800;
-  left: 70%;
-  bottom: 0;
-  right: 0;
-  top: 52%;
-  min-width: 800px;
-  align-items: center;
 
-}
 .description__textNote {
+  position: absolute;
   display: inline-block;
   min-width: 104px;
   max-width: 104px;
+  top: -30%;
+  right: -20%;
+
 }
 .description__note-arc {
+  position: absolute;
   background-color: transparent;
-  border-radius: 50% 50% 50% 50%;
-  height: 200px;
-  width: 350px;
-  border-right: 1px solid #AEAEAE;
-  border-left: solid transparent;
-  border-bottom: solid transparent;
-  border-top: solid transparent;
-  align-self: flex-start;
-  transform: rotate(55deg);
+  border-radius: 50% 50% 50% 50% ;
+  height: 150px;
+  width: 220px;
+  border-right: 0.8px solid #AEAEAE;
+  border-left: 0.8px solid transparent;
+  border-bottom: 0.8px solid transparent;
+  border-top: 0.8px solid transparent;
+  transform: rotate(38deg);
+  left: 86%;
+  top: -42%;
+}
+
+.description2__content{
+  position: relative;
 }
 .description2__item {
   width: 60%;
