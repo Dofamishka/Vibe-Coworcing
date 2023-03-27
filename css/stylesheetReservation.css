@@ -365,7 +365,6 @@ body {
   font-family: 'TTNorms-Bold';
   font-size: 16px;
   font-weight: 700;
-  line-height: 26px;
 
   color: #CE946B;
 }
@@ -1056,7 +1055,6 @@ body {
 
 .vacanciesVideo__play-circle-btn {
   position: relative;
-  z-index: 500;
   width: 125px;
   height: 125px;
   display: flex;
@@ -1073,7 +1071,6 @@ body {
   background: linear-gradient(137.66deg, #F8E6E2 19.2%, #E4BEB5 76.33%);
 }
 
-
 .vacanciesVideo__play-circleTriangle {
   max-width: 22px;
   max-height: 22px;
@@ -1085,4 +1082,65 @@ body {
   left: 49%;
   max-height: 780px;
   max-width: 800px;
+}
+
+/*-----------------payment-----------------*/
+.payment {
+  margin-bottom: 288px;
+}
+
+.payment__titleMain {
+  text-align: center;
+  margin: 0 auto 91px auto;
+}
+
+.payment__photo {
+  margin: 0 auto;
+  height: 531px;
+  max-width: 1150px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.payment__photo-img {
+  margin-bottom: 72px;
+  max-width: 555px;
+  max-height: 400px;
+}
+
+.payment__photo-img:nth-child(odd) {
+  align-self: flex-start;
+}
+
+.payment__photo-img:nth-child(even) {
+  align-self: flex-end;
+}
+
+.payment__content {
+  margin: 0 auto;
+  max-width: 810px;
+}
+
+.payment__content-text {
+  margin-bottom: 78px;
+}
+
+.payment__content-text:last-child {
+  margin: 0;
+}
+
+.payment__list {
+  margin-bottom: 78px;
+}
+
+.payment__list-element {
+  margin-bottom: 45px;
+  padding-left: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment__list-element__numberOl {
+  margin-right: 25px;
 }
