@@ -1146,7 +1146,7 @@ body {
 }
 
 
-/*-----------------Article-----------------*/
+/*-----------------jobOffers-----------------*/
 .jobOffer {
   margin-bottom: 250px;
 }
@@ -1345,4 +1345,479 @@ body {
 .card__titleSubordinate {
   margin-bottom: 15px;
   font-size: 29px;
+}
+
+
+/*-----------------excellence-----------------*/
+.excellence {
+  margin-bottom: 190px;
+}
+
+.excellence__preamble {
+  margin: 0 auto 85px auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1095px;
+}
+
+.excellence__preamble1 {
+  margin-right: 105px;
+  max-width: 670px;
+  display: flex;
+  align-items: center;
+}
+
+.excellence__textBold {
+  max-width: 270px;
+  padding-left: 18px;
+
+  background: url(../img/marker.png) no-repeat 0 0.4rem;
+}
+
+.excellence__titleBig {
+  margin-bottom: 70px;
+}
+
+.excellence__text {
+  max-width: 670px;
+}
+
+.excellence__preamble2 {
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.excellence__content {
+  margin: 0 auto 190px auto;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  max-width: 1010px;
+}
+
+.excellence__flowers {
+  position: absolute;
+  top: 20px;
+  left: -100px;
+}
+
+.excellence__img img {
+  max-width: 555px;
+  max-height: 400px;
+}
+
+.excellence__content-text {
+  max-width: 310px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.excellence__titleSubordinate {
+  margin-bottom: 25px;
+}
+
+.excellence__main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.excellence__mainText {
+  max-width: 800px;
+}
+
+.excellence__titleMain {
+  margin-bottom: 55px;
+}
+
+.excellence__main-text {
+  max-width: 671px;
+}
+
+.excellence__mainMessage {
+  position: relative;
+  min-width: 351px;
+  height: 125px;
+  background-color: #EDD5D0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+
+.excellence__mainMessage::before {
+  position: absolute;
+  content: "";
+  width: 80px;
+  height: 80px;
+  margin: -50px 0 50px 0;
+  border-radius: 50%;
+  box-shadow: 15px 15px 0 0 #EDD5D0;
+  top: 85px;
+  left: -60px;
+  transform: rotate(-30deg);
+}
+
+.excellence__mainMessage-text {
+  max-width: 245px;
+  line-height: 26px;
+}
+
+
+
+/*-----------------payRise-----------------*/
+.payRise {
+  margin-bottom: 225px;
+}
+
+
+.payRise__titleMain {
+  margin: 0 auto 100px auto;
+  max-width: 760px;
+  text-align: center;
+}
+
+.payRise__icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payRise__icons-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 135px;
+}
+
+.payRise__icons-img {
+  margin-bottom: 15px;
+  width: 52px;
+  height: 52px;
+}
+
+.payRise__icons__textBold {
+  color: #CE946B;
+  line-height: 14px;
+}
+
+
+/*-----------------Feedback-----------------*/
+.feedback {
+  margin: 0 auto;
+  height: 890px;
+  max-width: 1919px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  z-index: 5;
+  overflow: hidden;
+}
+
+.feedback__bg {
+  background-color:
+    rgba(54, 51, 72, 1);
+  position: absolute;
+  height: 1000px;
+  width: 5000px;
+  border-radius: 50%;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.feedback__bg-mask {
+  background: url(../img/Vacancies.img/Feedback/mask.png);
+  z-index: 50;
+  height: 755px;
+}
+
+.feedback__container {
+  color: #ffff;
+  padding-top: 215px;
+}
+
+.feedback__titleBig {
+  margin-bottom: 45px;
+}
+
+.feedback__text {
+  margin-bottom: 60px;
+  font-size: 24px;
+  line-height: 39px;
+  max-width: 1036px;
+
+  color: rgba(255, 255, 255, 1);
+}
+
+.feedback__form {
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-width: 1096px;
+}
+
+.feedback__blockContact {
+  max-width: 740px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.feedback__form-contact {
+  margin-bottom: 25px;
+  height: 98px;
+  width: 357px;
+  background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  border: 1px solid rgba(250, 250, 250, 0.165952);
+  box-shadow: inset 0px 1px 4px rgba(193, 203, 202, 0.212751);
+  border-radius: 7px;
+}
+
+.feedback__form-contact:nth-child(n+3) {
+  margin-bottom: 0;
+}
+
+.feedback__form-icon {
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+
+  background: linear-gradient(131.39deg, #EBBE9D 13.55%, #DFAB86 80.5%);
+  border-radius: 50%;
+}
+
+
+.feedback__inpyt {
+  font-family: 'TTNorms-Regular';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: rgba(157, 157, 176, 1);
+
+  padding-left: 20px;
+  border-left: 1px solid #F0F0F0;
+  border-right: 0;
+  border-bottom: 0;
+  border-top: 0;
+}
+
+.feedback__form__btn {
+  width: 334px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+
+.feedback__img {
+  position: absolute;
+  z-index: -500000;
+  bottom: 20px;
+  right: -110px;
+}
+
+.feedback__form__sending {
+  background: transparent;
+  border: transparent;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.feedback__PrivacyPolicy {
+  max-width: 1096px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+
+
+}
+
+.feedback__PrivacyPolicy-item {
+  max-width: 334px;
+  font-family: 'TTNorms-Regular';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  padding-left: 5px;
+  display: flex;
+  justify-content: space-between;
+
+
+
+}
+
+.feedback__PrivacyPolicy-chekbox {
+  content: "";
+  display: block;
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+  border-radius: 15%;
+  text-align: center;
+
+  position: relative;
+  top: 2px;
+  background-color: #ECD4C1;
+}
+
+.feedback__PrivacyPolicy-link {
+  display: inline-block;
+}
+
+.feedback__PrivacyPolicy-chekbox::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 8px;
+  border-right: 1.5px #363348 solid;
+  border-bottom: 1.5px #363348 solid;
+  border-top: none;
+  border-left: none;
+  z-index: 10000000;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* transform: translate(-30%, -30%); */
+  transition: 0.8s;
+  transform: rotate(30deg);
+  display: block;
+  opacity: 1;
+  /* opacity: 0; */
+}
+
+
+input[type="checkbox"] {
+  display: none
+}
+
+input.checkbox:checked+div>span::before {
+  /* opacity: 1; */
+  /* display: none; */
+  opacity: 0;
+
+}
+
+
+/*-----------------
+Footer-----------------*/
+.footer {
+  border-top: 1px solid rgba(233, 233, 241, 1);
+}
+
+.footer__content {
+  height: 370px;
+  display: flex;
+  padding: 117px 0;
+}
+
+.footer__item {
+  width: 50%;
+}
+
+.footer__logo {
+  max-width: 170px;
+  max-height: 54px;
+}
+
+.footer__contacts {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.footer__icon {
+  margin-right: 16px;
+}
+
+.footer__icon:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.footer__telephone {
+  margin-left: 15px;
+}
+
+.footer__telephone-number {
+  font-size: 27px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(52, 52, 63, 1);
+}
+
+.footer__telephone-number:hover {
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footer__telephone-call {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: rgba(206, 148, 107, 1);
+}
+
+.footer__telephone-call:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+
+.footer__telephone-call-icon {
+  margin-right: 8px;
+}
+
+.footer__navigation {
+  width: 25%;
+
+}
+
+.footer__link {
+  color: rgba(52, 52, 63, 1);
+  line-height: 40px;
+}
+
+.footer__link:hover {
+  color: rgba(248, 230, 226, 1);
+}
+
+.footer__privacyPolicy {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-top: 1px solid;
+  border-image: linear-gradient(to right, rgba(233, 233, 241, 0.0001), rgba(222, 222, 229, 1), rgba(233, 233, 241, 0.0001)) 100% 0%;
+}
+
+.footer__privacyPolicy-text {
+  margin: 0 auto;
+  font-size: 14px;
+  color: rgba(165, 165, 179, 1);
+}
+
+.footer__privacyPolicy-text:hover {
+  opacity: 0.7;
 }
