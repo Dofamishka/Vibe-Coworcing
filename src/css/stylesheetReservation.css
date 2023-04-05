@@ -300,7 +300,7 @@ caption {
 /*-----------------Styles-----------------*/
 html {
   box-sizing: border-box;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 body {
@@ -321,7 +321,6 @@ body {
 [class*="__container"] {
   max-width: 1180px;
   margin: 0px auto;
-  font-size: 20px
 }
 
 [class*="__titleBig"] {
