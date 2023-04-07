@@ -415,6 +415,7 @@ body {
 }
 
 .slant__slider {
+  margin-bottom: 30px;
   display: flex;
   align-items: center;
 }
@@ -460,6 +461,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.8s;
+}
+
+.slant__btn:hover {
+  background: #ff9f5f;
 }
 
 .slant__btn_prev::before {
@@ -468,9 +474,10 @@ body {
   content: "";
   height: 7.14px;
   width: 7.14px;
-  border-top: solid#E6B794 2px;
-  border-left: solid #e6b794 2px;
+  border-top: solid#E6B794 3px;
+  border-left: solid #e6b794 3px;
   transform: rotate(-45deg);
+  margin-right: -2px;
 }
 
 .slant__btn_next::before {
@@ -479,9 +486,10 @@ body {
   content: "";
   height: 7.14px;
   width: 7.41px;
-  border-top: solid#E6B794 2px;
-  border-left: solid #e6b794 2px;
+  border-top: solid#E6B794 3px;
+  border-left: solid #e6b794 3px;
   transform: rotate(130deg);
+  margin-right: 2px;
 }
 
 .slant__number {
@@ -516,6 +524,39 @@ body {
   font-weight: 400;
 }
 
+.slant__indicators {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 186px;
+  padding-left: 96px;
+}
+
+.slant__indicators-item {
+  width: 4px;
+  height: 4px;
+  background: #b1b1b3;
+  border-radius: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.slantIndicator__active {
+  background: #c88c61;
+}
+
+.slantIndicator__active::before {
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+  height: 14px;
+  width: 14px;
+  background: transparent;
+  z-index: -1;
+  border: solid 1px #c88c61;
+}
 /*-----------------Facilities-----------------*/
 .facilities {
   margin-bottom: 230px;

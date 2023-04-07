@@ -132,13 +132,14 @@ body {
 .main_btn {
   text-transform: uppercase;
   color: rgba(255, 255, 255, 1);
-
   background: linear-gradient(314.24deg, #c88c61 25.11%, #ebbe9c 88.64%);
-
   border-radius: 10px / 90%;
   box-shadow: inset 0px 0px 12px #e5b79a, -2px 5px 2px 0px #b98766,
     0px 0px 50px -20px #e5b093;
   transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main_btn:hover {
@@ -181,7 +182,7 @@ body {
 }
 
 .header__container {
-  max-width: 147rem;
+  max-width: 1470px;
   display: flex;
   min-height: 93px;
   align-items: center;
@@ -221,13 +222,13 @@ body {
 
 .menu__list {
   display: flex;
-  padding-left: 11.2rem;
+  padding-left: 112px;
 }
 
 .menu__item {
   display: inline-block;
-  font-size: 1.6rem;
-  margin-right: 3.1rem;
+  font-size: 16px;
+  margin-right: 31px;
 }
 
 .menu__link {
@@ -276,7 +277,7 @@ body {
 .phone__call_text {
   display: flex;
   align-self: center;
-  font-size: 1.4rem;
+  font-size: 14px;
   height: 50px;
 }
 
@@ -305,16 +306,16 @@ body {
 
 .header__intro {
   text-align: center;
-  margin-top: 7.2rem;
+  margin-top: 72px;
 }
 
 .intro__container {
-  height: 68.3rem;
+  height: 683px;
   position: relative;
   width: 100%;
   display: flex;
   flex-direction: column;
-  max-width: 161.7rem;
+  max-width: 1617px;
   background: url("../img/header/bg.jpg") center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
@@ -324,16 +325,16 @@ body {
 
 .intro__title {
   font-family: "tenor sans";
-  font-size: 5rem;
+  font-size: 50px;
   font-weight: 400;
-  padding: 25.9rem 0 0 0;
-  line-height: 5.8rem;
+  padding: 259px 0 0 0;
+  line-height: 58px;
 
   color: #ffff;
 }
 
 .btn__intro {
-  padding-top: 11.7rem;
+  padding-top: 117px;
 }
 
 /*-----------------Description-----------------*/
@@ -893,7 +894,7 @@ body {
   margin-bottom: 65px;
   padding-left: 15px;
 
-  background: url(../img/marker.png) no-repeat 0 0.4rem;
+  background: url(../img/marker.png) no-repeat 0 4px;
 }
 
 .jobOffer__content {
@@ -1070,7 +1071,7 @@ body {
   max-width: 270px;
   padding-left: 18px;
 
-  background: url(../img/marker.png) no-repeat 0 0.4rem;
+  background: url(../img/marker.png) no-repeat 0 4px;
 }
 
 .excellence__titleBig {
