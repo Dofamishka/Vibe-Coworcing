@@ -301,7 +301,7 @@ body {
 }
 
 .branhes__data:nth-child(5n) {
-  margin: 0 28.33% 0 5%;
+  margin: 0 auto 0 5%;
 }
 
 .branches__number {
@@ -581,16 +581,17 @@ body {
 
 .facilities__list-item {
   flex-basis: 33.33333%;
-  margin: 0 auto;
+  margin: 0 auto 0 0;
 }
 
-.facilities__list-text {
-  font-family: "TTNorms-Bold";
-  font-size: 16px;
+.facilities__list-item:nth-child(3n + 1) {
+  margin: 0 0 0 auto;
+}
+
+.facilities__textBold {
   line-height: 24px;
-  font-weight: 700;
   max-width: 280px;
-  margin: auto;
+  margin: 0 auto;
 }
 
 /*-----------------Founders-----------------*/
@@ -601,14 +602,16 @@ body {
 .founders__titleBig {
   text-align: center;
 
-  margin: 0 auto;
+  margin: 0 auto 95px auto;
   max-width: 804px;
   line-height: 58px;
 }
 
 .founders__item {
   display: flex;
-  margin: 96px 0 79px 0;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  max-width: 1090px;
 }
 
 .founders__item-img {
@@ -623,24 +626,23 @@ body {
 }
 
 .founders__item-content {
-  padding-left: 130px;
   width: 58%;
   max-width: 495px;
 }
 
-.founders__quote {
-  margin: 58px 0 52px 0;
+.founders__icon {
+  margin-bottom: 60px;
 }
 
-.founders__quote-text {
+.founders__quote {
+  max-width: 438px;
+  margin-bottom: 55px;
   font-family: "tenor sans";
   font-size: 22px;
   line-height: 32px;
-  font-weight: 400;
 }
 
 .founders__quote-address h3 {
-  font-weight: 400;
   font-size: 26px;
   line-height: 36px;
 }
@@ -683,40 +685,54 @@ body {
 /*-----------------
 Advantage-----------------*/
 .advantage {
-  margin-bottom: 270px;
+  margin-bottom: 50px;
 }
 
 .advantage__titleBig {
-  max-width: 1178px;
-  margin: 0 auto;
+  max-width: 1120px;
+  margin: 0 auto 135px auto;
   text-align: center;
 }
 
 .advantage__item {
-  max-width: 1178px;
+  max-width: 1105px;
+  margin: 0 auto;
   height: 785px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
-  align-content: space-around;
+  justify-content: space-between;
 }
 
 .advantage__element {
-  max-width: 16%;
+  max-width: 186px;
   align-self: flex-start;
   height: 222px;
 }
 
-.advantage__text {
-  font-family: "TTNorms-Bold";
-  font-size: 16px;
-  font-weight: 700;
-  line-height: 24px;
+.advantage__semicircle {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  background: rgb(206, 148, 107);
+  background: linear-gradient(
+    0deg,
+    rgba(206, 148, 107, 1) 0%,
+    rgba(206, 148, 107, 0.753) 36%,
+    rgba(206, 148, 107, 0) 100%
+  );
+  transform: rotate(-3deg);
 }
 
-.advantage__arc {
-  max-width: 20%;
-  align-self: flex-end;
+.advantage__semicircle::before {
+  position: absolute;
+  content: "";
+  height: 249px;
+  width: 253px;
+  border-radius: 50%;
+  background: rgb(255, 255, 255);
 }
 
 /*-----------------
@@ -748,6 +764,7 @@ Footer-----------------*/
 
 .footer__icon {
   margin-right: 16px;
+  transition: 0.5s;
 }
 
 .footer__icon:hover {
@@ -764,11 +781,11 @@ Footer-----------------*/
   font-weight: 400;
   line-height: 26px;
   color: rgba(52, 52, 63, 1);
+  transition: 0.5s;
 }
 
 .footer__telephone-number:hover {
   opacity: 0.7;
-  transition: 0.5s;
 }
 
 .footer__telephone-call {
@@ -792,8 +809,11 @@ Footer-----------------*/
 }
 
 .footer__link {
+  font-size: 16px;
   color: rgba(52, 52, 63, 1);
   line-height: 40px;
+  text-transform: uppercase;
+  transition: 0.5s;
 }
 
 .footer__link:hover {
@@ -823,6 +843,7 @@ Footer-----------------*/
   margin: 0 auto;
   font-size: 14px;
   color: rgba(165, 165, 179, 1);
+  transition: 0.5s;
 }
 
 .footer__privacyPolicy-text:hover {
