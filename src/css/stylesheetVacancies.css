@@ -48,21 +48,40 @@ body {
   min-height: 100%;
 }
 
+.main {
+  flex: 1 1 auto;
+}
+
 [class*="__container"] {
-  max-width: 118rem;
+  max-width: 1180px;
   margin: 0px auto;
   font-size: 20px;
 }
 
-[class*="__titleProper"] {
+
+[class*="__titleBig"] {
   font-family: "tenor sans";
   font-size: 50px;
-  font-weight: 400;
   line-height: 58px;
 }
 
-.main {
-  flex: 1 1 auto;
+[class*="__titleMain"] {
+  font-family: "tenor sans";
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 46.8px;
+}
+
+[class*="__textMain"] {
+  font-size: 18px;
+  color: #363348;
+}
+
+[class*="__textBold"] {
+  font-family: "TTNorms-Bold";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26px;
 }
 
 .beige__text {
@@ -70,7 +89,28 @@ body {
   font-weight: 400;
 }
 
+[class*="__textNote"] {
+  font-family: "TTNorms-Italic";
+  font-size: 13px;
+  font-style: italic;
+  line-height: 14px;
+}
+
+[class*="__arc"] {
+  position: absolute;
+  background-color: transparent;
+  border-radius: 50% 50% 50% 50%;
+  border-right: 0.8px solid #aeaeae;
+  border-left: 0.8px solid transparent;
+  border-bottom: 0.8px solid transparent;
+  border-top: 0.8px solid transparent;
+  transform: rotate(38deg);
+  left: 86%;
+  top: -42%;
+}
+
 .main_btn {
+  text-transform: uppercase;
   color: rgba(255, 255, 255, 1);
   background: linear-gradient(314.24deg, #c88c61 25.11%, #ebbe9c 88.64%);
   border-radius: 10px / 90%;
@@ -116,7 +156,7 @@ body {
 }
 
 .header__container {
-  max-width: 147rem;
+  max-width: 1470px;
   display: flex;
   min-height: 93px;
   align-items: center;
@@ -156,13 +196,13 @@ body {
 
 .menu__list {
   display: flex;
-  padding-left: 11.2rem;
+  padding-left: 112px;
 }
 
 .menu__item {
   display: inline-block;
-  font-size: 1.6rem;
-  margin-right: 3.1rem;
+  font-size: 16px;
+  margin-right: 31px;
 }
 
 .menu__link {
@@ -211,7 +251,7 @@ body {
 .phone__call_text {
   display: flex;
   align-self: center;
-  font-size: 1.4rem;
+  font-size: 14px;
   height: 50px;
 }
 
@@ -244,11 +284,12 @@ body {
 }
 
 .intro__container {
-  height: 68.3rem;
+  position: relative;
+  height: 700px;
   width: 100%;
   display: flex;
   align-items: center;
-  max-width: 161.7rem;
+  max-width: 1617px;
   background: url("../img/Vacancies.img/bg-header.png") center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
@@ -263,79 +304,43 @@ body {
   max-width: 544px;
 }
 
-.intro__title {
-  font-family: "tenor sans";
-  font-size: 5rem;
-  font-weight: 400;
-  line-height: 5.8rem;
-  margin-bottom: 10px;
-
+.intro__titleBig {
+  margin-bottom: 30px;
   color: #ffff;
 }
 
-.intro__text {
-  font-size: 18px;
-  font-weight: 400;
-  margin-bottom: 30px;
-
-  color: rgba(255, 255, 255, 1);
+.intro__textMain {
+  margin-bottom: 45px;
+  color: #ffff;
 }
 
-.intro__link {
-  display: flex;
-  flex-wrap: wrap;
-}
 
 .intro__btn {
-  width: 68%;
-}
-
-.intro__note {
-  display: flex;
-  width: 32%;
-  height: 170px;
-}
-
-.intro__btn-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 99px;
   width: 340px;
-  margin-right: 15px;
-  margin: 0 auto;
-
-  font-family: "TTNorms-Bold";
-  font-size: 14px;
-  font-weight: 700;
-  line-height: 17px;
-
-  color: rgba(255, 255, 255, 1);
+  height: 102px;
 }
 
-.intro__arc {
-  max-width: 112px;
-  max-height: 35px;
-  align-self: center;
+.intro__note__arc {
+  position: absolute;
+  height: 100px;
+  width: 120px;
+  color: #fff;
+  transform: rotate(-55deg);
+  top: 560px;
+  left: 535px;
 }
 
-.intro__link-text {
-  align-self: flex-end;
-  margin-bottom: 30px;
-
-  font-family: "TTNorms-Italic";
-  font-size: 13px;
-  font-style: italic;
-  font-weight: 400;
-  line-height: 14px;
+.intro__textNote {
+  position: absolute;
   max-width: 120px;
-
-  color: rgba(255, 255, 255, 1);
+  color: #fff;
+  top: 610px;
+  left: 640px;
 }
 
 /*-----------------Vacancies-----------------*/
 .vacancies {
-  margin-bottom: 226px;
+  margin-bottom: 225px;
 }
 
 .vacancies__btn {
@@ -344,7 +349,7 @@ body {
 }
 
 .vacancies__content {
-  margin-bottom: 86px;
+  margin-bottom: 85px;
 }
 
 .vacancies__btn-button:first-child {
@@ -358,7 +363,6 @@ body {
   line-height: 19px;
   height: 79px;
   width: 324px;
-
   transition: 0.8s;
 }
 
@@ -371,18 +375,14 @@ body {
   align-items: center;
   justify-content: space-between;
   padding: 74px 0;
-
   border-left: none;
   border-right: none;
   border-bottom: 1px solid;
   border-top: none;
-  border-image: linear-gradient(
-      to right,
+  border-image: linear-gradient(to right,
       rgba(233, 233, 241, 0.006),
       rgba(222, 222, 229, 1),
-      rgba(233, 233, 241, 0.006)
-    )
-    100% 0%;
+      rgba(233, 233, 241, 0.006)) 100% 0%;
 }
 
 .vacancies__card:first-child {
@@ -391,25 +391,23 @@ body {
 
 .vacancies__card-title {
   font-family: "tenor sans";
-  font-weight: 400;
   font-size: 26px;
   line-height: 30px;
 
   max-width: 578px;
 }
 
-.vacancies__card-wages {
-  font-family: "TTNorms-Bold";
-  font-weight: 700;
+.vacancies__card__textBold {
   font-size: 18px;
   line-height: 26px;
-
   max-width: 140px;
 }
 
 .vacancies__card-btn {
   height: 82px;
   width: 244px;
+  font-size: 14px;
+  line-height: 17px;
 }
 
 .vacancies__expand {
@@ -460,24 +458,20 @@ body {
   align-items: center;
 }
 
-.subscription__content-text {
+.subscription__titleMain {
   margin-bottom: 43px;
-  font-family: "tenor sans";
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 50px;
   max-width: 750px;
   text-align: center;
-
   color: rgba(255, 255, 255, 1);
 }
 
 .subscription__btn {
-  height: 103px;
+  height: 100px;
   width: 409px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 18px;
 }
 
 /*-----------------Worth-----------------*/
@@ -485,7 +479,7 @@ body {
   margin-bottom: 245px;
 }
 
-.worth__titleProper {
+.worth__titleBig {
   max-width: 913px;
   line-height: 58px;
   text-align: center;
@@ -515,9 +509,7 @@ body {
   border-radius: 50%;
 }
 
-.worth__card-text {
-  font-family: "TTNorms-Bold";
-  font-weight: 700;
+.worth__card__textBold {
   font-size: 16px;
   line-height: 21px;
   max-width: 194px;
@@ -555,20 +547,25 @@ body {
 .feedback__container {
   color: #ffff;
   padding-top: 215px;
+  position: relative;
 }
 
-.feedback__titleProper {
+.feedback__img {
+  position: absolute;
+  z-index: -500000;
+  bottom: 90px;
+  left: 900px;
+}
+
+.feedback__titleBig {
   margin-bottom: 45px;
 }
 
 .feedback__text {
   margin-bottom: 60px;
-  font-family: "TTNorms-Regular";
-  font-weight: 400;
   font-size: 24px;
   line-height: 39px;
   max-width: 1036px;
-
   color: rgba(255, 255, 255, 1);
 }
 
@@ -628,15 +625,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
-  position: relative;
-}
-
-.feedback__img {
-  position: absolute;
-  z-index: -500000;
-  bottom: 20px;
-  right: -110px;
 }
 
 .feedback__form__sending {
@@ -711,7 +699,7 @@ input[type="checkbox"] {
   display: none;
 }
 
-input.checkbox:checked + div > span::before {
+input.checkbox:checked+div>span::before {
   /* opacity: 1; */
   /* display: none; */
   opacity: 0;
@@ -746,6 +734,7 @@ Footer-----------------*/
 
 .footer__icon {
   margin-right: 16px;
+  transition: 0.5s;
 }
 
 .footer__icon:hover {
@@ -762,11 +751,11 @@ Footer-----------------*/
   font-weight: 400;
   line-height: 26px;
   color: rgba(52, 52, 63, 1);
+  transition: 0.5s;
 }
 
 .footer__telephone-number:hover {
   opacity: 0.7;
-  transition: 0.5s;
 }
 
 .footer__telephone-call {
@@ -790,8 +779,11 @@ Footer-----------------*/
 }
 
 .footer__link {
+  font-size: 16px;
   color: rgba(52, 52, 63, 1);
   line-height: 40px;
+  text-transform: uppercase;
+  transition: 0.5s;
 }
 
 .footer__link:hover {
@@ -808,19 +800,17 @@ Footer-----------------*/
   border-right: none;
   border-bottom: none;
   border-top: 1px solid;
-  border-image: linear-gradient(
-      to right,
+  border-image: linear-gradient(to right,
       rgba(233, 233, 241, 0.0001),
       rgba(222, 222, 229, 1),
-      rgba(233, 233, 241, 0.0001)
-    )
-    100% 0%;
+      rgba(233, 233, 241, 0.0001)) 100% 0%;
 }
 
 .footer__privacyPolicy-text {
   margin: 0 auto;
   font-size: 14px;
   color: rgba(165, 165, 179, 1);
+  transition: 0.5s;
 }
 
 .footer__privacyPolicy-text:hover {

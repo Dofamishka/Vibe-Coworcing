@@ -323,10 +323,7 @@ body {
   margin: 0 auto 175px auto;
 }
 
-.intro__title {
-  font-family: "tenor sans";
-  font-size: 50px;
-  font-weight: 400;
+.intro__titleBig {
   padding: 259px 0 0 0;
   line-height: 58px;
 
@@ -687,6 +684,14 @@ body {
   align-items: center;
 }
 
+.vacanciesVideo__girl {
+  position: absolute;
+  top: 4.9%;
+  left: 49%;
+  max-height: 780px;
+  max-width: 800px;
+}
+
 /* .vacanciesVideo__video {}
 
 .vacanciesVideo__video-YouTube {}
@@ -782,14 +787,6 @@ body {
 .vacanciesVideo__play-circleTriangle {
   max-width: 22px;
   max-height: 22px;
-}
-
-.vacanciesVideo__girl {
-  position: absolute;
-  top: 4.9%;
-  left: 49%;
-  max-height: 780px;
-  max-width: 800px;
 }
 
 /*-----------------payment-----------------*/
@@ -1232,6 +1229,14 @@ body {
 .feedback__container {
   color: #ffff;
   padding-top: 215px;
+  position: relative;
+}
+
+.feedback__img {
+  position: absolute;
+  z-index: -500000;
+  bottom: 100px;
+  left: 900px;
 }
 
 .feedback__titleBig {
@@ -1317,13 +1322,6 @@ body {
   position: relative;
 }
 
-.feedback__img {
-  position: absolute;
-  z-index: -500000;
-  bottom: 20px;
-  right: -110px;
-}
-
 .feedback__form__sending {
   background: transparent;
   border: transparent;
@@ -1396,7 +1394,7 @@ input[type="checkbox"] {
   display: none;
 }
 
-input.checkbox:checked + div > span::before {
+input.checkbox:checked+div>span::before {
   /* opacity: 1; */
   /* display: none; */
   opacity: 0;
@@ -1431,6 +1429,7 @@ Footer-----------------*/
 
 .footer__icon {
   margin-right: 16px;
+  transition: 0.5s;
 }
 
 .footer__icon:hover {
@@ -1447,11 +1446,11 @@ Footer-----------------*/
   font-weight: 400;
   line-height: 26px;
   color: rgba(52, 52, 63, 1);
+  transition: 0.5s;
 }
 
 .footer__telephone-number:hover {
   opacity: 0.7;
-  transition: 0.5s;
 }
 
 .footer__telephone-call {
@@ -1475,8 +1474,11 @@ Footer-----------------*/
 }
 
 .footer__link {
+  font-size: 16px;
   color: rgba(52, 52, 63, 1);
   line-height: 40px;
+  text-transform: uppercase;
+  transition: 0.5s;
 }
 
 .footer__link:hover {
@@ -1493,19 +1495,17 @@ Footer-----------------*/
   border-right: none;
   border-bottom: none;
   border-top: 1px solid;
-  border-image: linear-gradient(
-      to right,
+  border-image: linear-gradient(to right,
       rgba(233, 233, 241, 0.0001),
       rgba(222, 222, 229, 1),
-      rgba(233, 233, 241, 0.0001)
-    )
-    100% 0%;
+      rgba(233, 233, 241, 0.0001)) 100% 0%;
 }
 
 .footer__privacyPolicy-text {
   margin: 0 auto;
   font-size: 14px;
   color: rgba(165, 165, 179, 1);
+  transition: 0.5s;
 }
 
 .footer__privacyPolicy-text:hover {
