@@ -556,8 +556,9 @@ body {
 .phone__call_text {
     display: flex;
     align-self: center;
-    font-size: 1.4rem;
+    font-size: 14px;
     height: 50px;
+    cursor: pointer;
 }
 
 .header__span {
@@ -565,7 +566,7 @@ body {
     color: #ffff;
     align-self: center;
 
-    background: linear-gradient(119deg, #E1B08D, #CC936B);
+    background: linear-gradient(119deg, #e1b08d, #cc936b);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -576,11 +577,11 @@ body {
     border-left: none;
     border-right: none;
 
-    transition: 0.5s;
+    transition: 0.8s;
 }
 
 .header__span:hover {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 
