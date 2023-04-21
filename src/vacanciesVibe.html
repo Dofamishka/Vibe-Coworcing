@@ -1,312 +1,467 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vibe Covarcing</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/joint.css" />
+    <link rel="stylesheet" href="css/stylesheetVacancies.css" />
+    <link rel="stylesheet" href="css/stylesheetVacanciesAdaptive.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Vibe Covarcing</title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/stylesheetVacancies.css">
-  <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <div class="wrapper">
-    <header class="header">
-      <div class="header__container">
-        <div class="header__logo">
-          <img class="img__logo" src="img/header/logo.png" alt="Логотип">
-          <div class="logo__line"></div>
-          <div class="logo__text">Бьюти коворкинг в&nbsp;Mоскве</div>
-        </div>
-
-        <nav class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">
-              <a class="menu__link" href="index.html">О&nbsp;нас
-              </a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link_active" href="">Вакансии
-              </a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="reservationVibe.html">Забронировать
-
-              </a>
-            </li>
-            <li class="menu__item">
-              <a class="menu__link" href="contacts.html">Контакты</a>
-            </li>
-          </ul>
-        </nav>
-
-        <div class="header__contact">
-          <a class="phone__call_text">
-            <img class="phoneCall__icon" src="img\header\phone.png" alt="Иконка">
-            <div class="header__span"> Обратный
-              звонок</div>
-          </a>
-        </div>
-      </div>
-    </header>
-
-    <div class="header__intro">
-      <div class="intro__container">
-        <div class="intro__item-vacancies">
-          <div class="intro__content">
-            <h1 class="intro__titleBig"><b class="beige__text">ВАКАНСИИ: </b>БЕСПРЕРЫВНО ИЩЕМ ЛУЧШИХ</h1>
-
-            <div class="intro__textMain">
-              Здесь собраны наши свежие вакансии. Приходите и работайте в стабильной компании в мегаудобном
-              пространстве, получайте достойную оплату и возможность развиваться вместе с нами.
-            </div>
-
-            <a href=""><button class="intro__btn main_btn">Заполнить анкету<img src="img/Vacancies.img/header/icon.png"
-                  alt="указатель" class="main_btnicon"></button></a>
-
-            <div class="intro__note__arc">
-            </div>
-            <div class="intro__textNote">присоеденяйся
-              к нам !! :)</div>
-
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <main>
-      <div class="vacancies">
-        <div class="vacancies__container">
-          <div class="vacancies__btn">
-            <a href=""><button class="vacancies__btn-button btn_pink">КЛИНИНГ</button></a>
-            <a href=""><button class="vacancies__btn-button btn_gray">РЕСЕПШЕН</button></a>
-
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__container">
+          <div class="header__logo">
+            <img class="img__logo" src="img/header/logo.png" alt="Логотип" />
+            <div class="logo__line"></div>
+            <div class="logo__text">Бьюти коворкинг в&nbsp;Mоскве</div>
           </div>
 
-          <div class="vacancies__content">
-            <div class="vacancies__card">
-              <div class="vacancies__card-title">Менеджер по продаже услуг по входящим заявкам (офис). С опытом от 6
-                месяцев</div>
-              <div class="vacancies__card__textBold">от 93 000 руб.</div>
-              <a href=""><button class="vacancies__card-btn main_btn">откликнуться</button></a>
-            </div>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="index.html">О&nbsp;нас </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link_active" href="">Вакансии </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="reservationVibe.html"
+                  >Забронировать
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
 
-            <div class="vacancies__card">
-              <div class="vacancies__card-title">Менеджер по поддержке бизнес-клиентов. С опытом от 6 месяцев</div>
-              <div class="vacancies__card__textBold">в среднем
-                97&nbsp;000&nbsp;руб.</div>
-              <a href=""><button class="vacancies__card-btn main_btn">откликнуться</button></a>
-            </div>
+          <div class="header__contact">
+            <a class="phone__call_text">
+              <img
+                class="phoneCall__icon"
+                src="img\header\phone.png"
+                alt="Иконка"
+              />
+              <div class="header__span">Обратный звонок</div>
+            </a>
+          </div>
+        </div>
+      </header>
 
-            <div class="vacancies__card">
-              <div class="vacancies__card-title">Администратор в Vibe Covorking на Новом Арбате. Можно без опыта работы
+      <div class="header__intro">
+        <div class="intro__container">
+          <div class="intro__item-vacancies">
+            <div class="intro__content">
+              <h1 class="intro__titleBig">
+                <span class="beigeText">ВАКАНСИИ: </span>БЕСПРЕРЫВНО ИЩЕМ ЛУЧШИХ
+              </h1>
+
+              <div class="intro__textMain">
+                Здесь собраны наши свежие вакансии. Приходите и работайте в
+                стабильной компании в мегаудобном пространстве, получайте
+                достойную оплату и возможность развиваться вместе с нами.
               </div>
-              <div class="vacancies__card__textBold">от 93 000 руб.</div>
-              <a href=""><button class="vacancies__card-btn main_btn">откликнуться</button></a>
-            </div>
 
-            <div class="vacancies__card">
-              <div class="vacancies__card-title">Исполнительный директор. С опытом от 1 года</div>
-              <div class="vacancies__card__textBold">от 150 000 руб.</div>
-              <a href=""><button class="vacancies__card-btn main_btn">откликнуться</button></a>
-            </div>
+              <a href=""
+                ><button class="intro__btn main_btn">
+                  Заполнить анкету<img
+                    src="img/Vacancies.img/header/icon.png"
+                    alt="указатель"
+                    class="main_btnicon"
+                  /></button
+              ></a>
 
-            <div class="vacancies__card">
-              <div class="vacancies__card-title">Менеджер по продаже услуг по входящим заявкам (офис). С опытом от 6
-                месяцев</div>
-              <div class="vacancies__card__textBold">от 93 000 руб.</div>
-              <a href=""><button class="vacancies__card-btn main_btn">откликнуться</button></a>
+              <div class="intro__note__arc"></div>
+              <div class="intro__textNote">присоеденяйся к нам !! :)</div>
             </div>
-
-            <div class="vacancies__card">
-              <div class="vacancies__card-title">Менеджер по поддержке бизнес-клиентов. С опытом от 6 месяцев</div>
-              <div class="vacancies__card__textBold">в среднем
-                97&nbsp;000&nbsp;руб.</div>
-              <a href=""><button class="vacancies__card-btn main_btn">откликнуться</button></a>
-            </div>
-          </div>
-
-          <div class="vacancies__expand">
-            <a href="" class="vacancies__expand-link">показать еще</a>
           </div>
         </div>
       </div>
-  </div>
 
-  <div class="subscription">
-    <div class="subscription__container">
-      <div class="subscription__photo"><img src="img/Vacancies.img/subscription/1x1.png" alt=""
-          class="subscription__photo-img"></div>
-
-      <div class="subscription__content">
-        <div class="subscription__titleMain">Не нашли подходящую вакансию — подпишитесь на рассылку новых</div>
-        <a href=""><button class="subscription__btn main_btn">ПОДПИСАТЬСЯ НА ОБНОВЛЕНИЯ<img
-              src="img/Vacancies.img/header/icon.png" alt="указатель" class="main_btnicon"></button></a>
-      </div>
-    </div>
-  </div>
-
-  <div class="worth">
-    <div class="worth__container">
-      <div class="worth__titleBig">ПРИХОДИТЕ РАБОТАТЬ ТУДА, <span class="beige__text"> ГДЕ УДОБНО, ИНТЕРЕСНО И
-          ВЫГОДНО</span></div>
-
-      <div class="worth__content">
-        <div class="worth__card">
-          <div class="worth__icon">
-            <img src="img/Vacancies.img/Worth/1.png" alt="иконка" class="worth__icon-img">
-          </div>
-          <div class="worth__card__textBold">Стабильная надежная компания</div>
-        </div>
-
-        <div class="worth__card">
-          <div class="worth__icon">
-            <img src="img/Vacancies.img/Worth/2.png" alt="иконка" class="worth__icon-img">
-          </div>
-          <div class="worth__card__textBold">Ультрасовременное рабочее пространство</div>
-        </div>
-
-        <div class="worth__card">
-          <div class="worth__icon">
-            <img src="img/Vacancies.img/Worth/3.png" alt="иконка" class="worth__icon-img">
-          </div>
-          <div class="worth__card__textBold">Достойная оплата + бонусы</div>
-        </div>
-
-        <div class="worth__card">
-          <div class="worth__icon">
-            <img src="img/Vacancies.img/Worth/4.png" alt="иконка" class="worth__icon-img">
-          </div>
-          <div class="worth__card__textBold">Для амбициозных и решительных</div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <div class="feedback">
-    <div class="feedback__bg">
-      <div class="feedback__bg-mask">
-        <div class="feedback__container">
-          <img class="feedback__img" src="img\Vacancies.img\Feedback\green.png" alt="">
-
-          <div class="feedback__titleBig">БУДЕМ <span class="beige__text"> НА СВЯЗИ</span>
-          </div>
-          <div class="feedback__text">Если вы не нашли подходящей вакансии, пишите нам. Рассмотрим специалиста на любую
-            позицию. Если вы чувствуете, что можете помочь усилить наш бренд, и готовы делать это, напишите прямо
-            сейчас.
-          </div>
-
-          <form action="" method="" class="feedback__form">
-            <div class="feedback__form-contact">
-              <div class="feedback__form-icon"><img src="img/Vacancies.img/Feedback/user.png" alt="иконка"></div> <input
-                type="text" name="name" placeholder="Имя" pattern="[a-z]{1,15}" class="feedback__inpyt">
+      <main>
+        <div class="vacancies">
+          <div class="vacancies__container">
+            <div class="vacancies__btn">
+              <a href=""
+                ><button class="vacancies__btn-button btn_pink">
+                  КЛИНИНГ
+                </button></a
+              >
+              <a href=""
+                ><button class="vacancies__btn-button btn_gray">
+                  РЕСЕПШЕН
+                </button></a
+              >
             </div>
 
-            <div class="feedback__form-contact">
-              <div class="feedback__form-icon"><img src="img/Vacancies.img/Feedback/Shape.png" alt="иконка"></div><input
-                type="text" name="number" placeholder="+7 (___) ___ - __ -__" pattern="\+?[0-9\s\-\(\)]+"
-                class="feedback__inpyt">
-
-            </div>
-
-            <div class="feedback__form__btn main_btn"><input type="submit" class="feedback__form__sending"
-                value="НАПИСАТЬ НАМ"><img src="img/Vacancies.img/header/icon.png" alt="указатель" class="main_btnicon">
-            </div>
-          </form>
-
-          <div class="feedback__PrivacyPolicy">
-            <label class="feedback__PrivacyPolicy-item" for="input__PrivacyPolicy">
-              <input class="checkbox" type="checkbox" id="input__PrivacyPolicy">
-
-              <div>
-                <span class="feedback__PrivacyPolicy-chekbox"></span>
-              </div>
-              <div>
-                Я согласна на обработку моих персональных
-                данных
-                в соответствии<a href="" class="beige__text feedback__PrivacyPolicy-link"> &nbsp; с условиями</a>
-              </div>
-            </label>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </main>
-
-  <footer class="footer">
-    <div class="footer__container">
-      <div class="footer__content">
-        <div class="footer__item">
-          <img src="img/footer/logo.png" alt="логотип" class="footer__logo" />
-
-          <div class="footer__contacts">
-            <a href="https://www.instagram.com/" target="_blank"><img src="img/footer/insta__icon.png"
-                alt="иконка инстаграмма" class="footer__icon" /></a>
-            <a href="https://web.whatsapp.com/" target="_blank"><img src="img/footer/whats__icon.png"
-                alt="иконка ватсапа" class="footer__icon" /></a>
-
-            <div class="footer__telephone">
-              <a href="tel:+79806879898">
-                <div class="footer__telephone-number">
-                  +7 (980) 687-98-98
+            <div class="vacancies__content">
+              <div class="vacancies__card">
+                <div class="vacancies__card-title">
+                  Менеджер по продаже услуг по входящим заявкам (офис). С опытом
+                  от 6 месяцев
                 </div>
-                <div class="footer__telephone-call">
-                  <img class="footer__telephone-call-icon" src="img\footer\phone.png" alt="иконка телефона" />Звонок
-                  бесплатный
+                <div class="vacancies__card__textBold">от 93 000 руб.</div>
+                <a href=""
+                  ><button class="vacancies__card-btn main_btn">
+                    откликнуться
+                  </button></a
+                >
+              </div>
+
+              <div class="vacancies__card">
+                <div class="vacancies__card-title">
+                  Менеджер по поддержке бизнес-клиентов. С опытом от 6 месяцев
                 </div>
-              </a>
+                <div class="vacancies__card__textBold">
+                  в среднем 97&nbsp;000&nbsp;руб.
+                </div>
+                <a href=""
+                  ><button class="vacancies__card-btn main_btn">
+                    откликнуться
+                  </button></a
+                >
+              </div>
+
+              <div class="vacancies__card">
+                <div class="vacancies__card-title">
+                  Администратор в Vibe Covorking на Новом Арбате. Можно без
+                  опыта работы
+                </div>
+                <div class="vacancies__card__textBold">от 93 000 руб.</div>
+                <a href=""
+                  ><button class="vacancies__card-btn main_btn">
+                    откликнуться
+                  </button></a
+                >
+              </div>
+
+              <div class="vacancies__card">
+                <div class="vacancies__card-title">
+                  Исполнительный директор. С опытом от 1 года
+                </div>
+                <div class="vacancies__card__textBold">от 150 000 руб.</div>
+                <a href=""
+                  ><button class="vacancies__card-btn main_btn">
+                    откликнуться
+                  </button></a
+                >
+              </div>
+
+              <div class="vacancies__card">
+                <div class="vacancies__card-title">
+                  Менеджер по продаже услуг по входящим заявкам (офис). С опытом
+                  от 6 месяцев
+                </div>
+                <div class="vacancies__card__textBold">от 93 000 руб.</div>
+                <a href=""
+                  ><button class="vacancies__card-btn main_btn">
+                    откликнуться
+                  </button></a
+                >
+              </div>
+
+              <div class="vacancies__card">
+                <div class="vacancies__card-title">
+                  Менеджер по поддержке бизнес-клиентов. С опытом от 6 месяцев
+                </div>
+                <div class="vacancies__card__textBold">
+                  в среднем 97&nbsp;000&nbsp;руб.
+                </div>
+                <a href=""
+                  ><button class="vacancies__card-btn main_btn">
+                    откликнуться
+                  </button></a
+                >
+              </div>
+            </div>
+
+            <div class="vacancies__expand">
+              <a href="" class="vacancies__expand-link">показать еще</a>
             </div>
           </div>
         </div>
 
-        <div class="footer__navigation">
-          <ol>
-            <li class="footer__link">
-              <a class="footer__link" href="">О НАС</a>
-            </li>
-            <li class="footer__link">
-              <a class="footer__link" href="">ВАКАНСИИ</a>
-            </li>
-            <li class="footer__link">
-              <a class="footer__link" href="">ЗАБРОНИРОВАТЬ</a>
-            </li>
-            <li class="footer__link">
-              <a class="footer__link" href="">КОНТАКТЫ</a>
-            </li>
-          </ol>
+        <div class="subscription">
+          <div class="subscription__container">
+            <div class="subscription__photo">
+              <img
+                src="img/Vacancies.img/subscription/1x1.png"
+                alt=""
+                class="subscription__photo-img"
+              />
+            </div>
+
+            <div class="subscription__content">
+              <div class="subscription__titleMain">
+                Не нашли подходящую вакансию — подпишитесь на рассылку новых
+              </div>
+              <a href=""
+                ><button class="subscription__btn main_btn">
+                  ПОДПИСАТЬСЯ НА ОБНОВЛЕНИЯ<img
+                    src="img/Vacancies.img/header/icon.png"
+                    alt="указатель"
+                    class="main_btnicon"
+                  /></button
+              ></a>
+            </div>
+          </div>
         </div>
 
-        <div class="footer__navigation">
-          <ol>
-            <li class="footer__link">
-              <a class="footer__link" href="">СТАТЬИ</a>
-            </li>
-            <li class="footer__link">
-              <a class="footer__link" href="">ФРАНШИЗА</a>
-            </li>
-            <li class="footer__link">
-              <a class="footer__link" href="">ЦЕНЫ</a>
-            </li>
-            <li class="footer__link">
-              <a class="footer__link" href="">ПРАВОВАЯ ИНФОРМАЦИЯ </a>
-            </li>
-          </ol>
+        <div class="worth">
+          <div class="worth__container">
+            <div class="worth__titleBig">
+              ПРИХОДИТЕ РАБОТАТЬ ТУДА,
+              <span class="beigeText"> ГДЕ УДОБНО, ИНТЕРЕСНО И ВЫГОДНО</span>
+            </div>
+
+            <div class="worth__content">
+              <div class="worth__card">
+                <div class="worth__icon">
+                  <img
+                    src="img/Vacancies.img/Worth/1.png"
+                    alt="иконка"
+                    class="worth__icon-img"
+                  />
+                </div>
+                <div class="worth__card__textBold">
+                  Стабильная надежная компания
+                </div>
+              </div>
+
+              <div class="worth__card">
+                <div class="worth__icon">
+                  <img
+                    src="img/Vacancies.img/Worth/2.png"
+                    alt="иконка"
+                    class="worth__icon-img"
+                  />
+                </div>
+                <div class="worth__card__textBold">
+                  Ультрасовременное рабочее пространство
+                </div>
+              </div>
+
+              <div class="worth__card">
+                <div class="worth__icon">
+                  <img
+                    src="img/Vacancies.img/Worth/3.png"
+                    alt="иконка"
+                    class="worth__icon-img"
+                  />
+                </div>
+                <div class="worth__card__textBold">
+                  Достойная оплата + бонусы
+                </div>
+              </div>
+
+              <div class="worth__card">
+                <div class="worth__icon">
+                  <img
+                    src="img/Vacancies.img/Worth/4.png"
+                    alt="иконка"
+                    class="worth__icon-img"
+                  />
+                </div>
+                <div class="worth__card__textBold">
+                  Для амбициозных и решительных
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="feedback">
+          <div class="feedback__bg">
+            <div class="feedback__bg-mask">
+              <div class="feedback__container">
+                <img
+                  class="feedback__img"
+                  src="img\Vacancies.img\Feedback\green.png"
+                  alt=""
+                />
+
+                <div class="feedback__titleBig">
+                  БУДЕМ <span class="beigeText"> НА СВЯЗИ</span>
+                </div>
+                <div class="feedback__text">
+                  Если вы не нашли подходящей вакансии, пишите нам. Рассмотрим
+                  специалиста на любую позицию. Если вы чувствуете, что можете
+                  помочь усилить наш бренд, и готовы делать это, напишите прямо
+                  сейчас.
+                </div>
+
+                <form action="" method="" class="feedback__form">
+                  <div class="feedback__form-contact">
+                    <div class="feedback__form-icon">
+                      <img
+                        src="img/Vacancies.img/Feedback/user.png"
+                        alt="иконка"
+                      />
+                    </div>
+                    <input
+                      type="text"
+                      name="name"
+                      placeholder="Имя"
+                      pattern="[a-z]{1,15}"
+                      class="feedback__inpyt"
+                    />
+                  </div>
+
+                  <div class="feedback__form-contact">
+                    <div class="feedback__form-icon">
+                      <img
+                        src="img/Vacancies.img/Feedback/Shape.png"
+                        alt="иконка"
+                      />
+                    </div>
+                    <input
+                      type="text"
+                      name="number"
+                      placeholder="+7 (___) ___ - __ -__"
+                      pattern="\+?[0-9\s\-\(\)]+"
+                      class="feedback__inpyt"
+                    />
+                  </div>
+
+                  <div class="feedback__form__btn main_btn">
+                    <input
+                      type="submit"
+                      class="feedback__form__sending"
+                      value="НАПИСАТЬ НАМ"
+                    /><img
+                      src="img/Vacancies.img/header/icon.png"
+                      alt="указатель"
+                      class="main_btnicon"
+                    />
+                  </div>
+                </form>
+
+                <div class="feedback__PrivacyPolicy">
+                  <label
+                    class="feedback__PrivacyPolicy-item"
+                    for="input__PrivacyPolicy"
+                  >
+                    <input
+                      class="checkbox"
+                      type="checkbox"
+                      id="input__PrivacyPolicy"
+                    />
+
+                    <div>
+                      <span class="feedback__PrivacyPolicy-chekbox"></span>
+                    </div>
+                    <div>
+                      Я согласна на обработку моих персональных данных в
+                      соответствии<a
+                        href=""
+                        class="beigeText feedback__PrivacyPolicy-link"
+                      >
+                        &nbsp;с условиями</a
+                      >
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__content">
+            <div class="footer__item">
+              <img
+                src="img/footer/logo.png"
+                alt="логотип"
+                class="footer__logo"
+              />
+
+              <div class="footer__contacts">
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><img
+                    src="img/footer/insta__icon.png"
+                    alt="иконка инстаграмма"
+                    class="footer__icon"
+                /></a>
+                <a href="https://web.whatsapp.com/" target="_blank"
+                  ><img
+                    src="img/footer/whats__icon.png"
+                    alt="иконка ватсапа"
+                    class="footer__icon"
+                /></a>
+
+                <div class="footer__telephone">
+                  <a href="tel:+79806879898">
+                    <div class="footer__telephone-number">
+                      +7 (980) 687-98-98
+                    </div>
+                    <div class="footer__telephone-call">
+                      <img
+                        class="footer__telephone-call-icon"
+                        src="img\footer\phone.png"
+                        alt="иконка телефона"
+                      />Звонок бесплатный
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer__navigation">
+              <ol>
+                <li class="footer__link">
+                  <a class="footer__link" href="">О НАС</a>
+                </li>
+                <li class="footer__link">
+                  <a class="footer__link" href="">ВАКАНСИИ</a>
+                </li>
+                <li class="footer__link">
+                  <a class="footer__link" href="">ЗАБРОНИРОВАТЬ</a>
+                </li>
+                <li class="footer__link">
+                  <a class="footer__link" href="">КОНТАКТЫ</a>
+                </li>
+              </ol>
+            </div>
+
+            <div class="footer__navigation">
+              <ol>
+                <li class="footer__link">
+                  <a class="footer__link" href="">СТАТЬИ</a>
+                </li>
+                <li class="footer__link">
+                  <a class="footer__link" href="">ФРАНШИЗА</a>
+                </li>
+                <li class="footer__link">
+                  <a class="footer__link" href="">ЦЕНЫ</a>
+                </li>
+                <li class="footer__link">
+                  <a class="footer__link" href="">ПРАВОВАЯ ИНФОРМАЦИЯ </a>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <div class="footer__privacyPolicy">
+        <div class="footer__privacyPolicy-text">
+          <a class="footer__privacyPolicy-text" href=""
+            >Политика конфидециальности</a
+          >
         </div>
       </div>
     </div>
-  </footer>
-
-  <div class="footer__privacyPolicy">
-    <div class="footer__privacyPolicy-text"><a class="footer__privacyPolicy-text" href="">Политика конфидециальности</a>
-    </div>
-  </div>
-
-  </div>
-</body>
-
+  </body>
 </html>

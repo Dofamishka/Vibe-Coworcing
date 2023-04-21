@@ -1,3 +1,33 @@
+/*-----------------Intro-----------------*/
+
+.header__intro {
+  text-align: center;
+}
+
+.intro__container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: url("../img/header/bg.jpg") center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  margin: 4% auto 8% auto;
+}
+
+.intro__titleBig {
+  display: inline-block;
+  max-width: 917px;
+  margin: 0 auto;
+  color: #ffff;
+  margin-bottom: 7%;
+}
+
+.btn__intro {
+  margin-bottom: 6%;
+}
+
 /*-----------------Branches-----------------*/
 .branches {
   margin-bottom: 225px;
@@ -71,7 +101,6 @@
   margin-bottom: 20px;
   text-transform: lowercase;
 }
-
 
 .plans__text {
   max-width: 1078px;
@@ -234,10 +263,13 @@
   border-left: none;
   border-right: none;
   border-top: none;
-  border-image: linear-gradient(to right,
+  border-image: linear-gradient(
+      to right,
       rgba(233, 233, 241, 0),
       rgba(222, 222, 229, 1),
-      rgba(233, 233, 241, 0.0001)) 100% 0%;
+      rgba(233, 233, 241, 0.0001)
+    )
+    100% 0%;
   top: 50%;
   left: 0 px;
 }
@@ -322,7 +354,6 @@
   margin: 0 auto;
 }
 
-
 /*-----------------Founders-----------------*/
 .founders {
   margin-bottom: 230px;
@@ -345,8 +376,6 @@
 .founders__item-img {
   width: 42%;
 }
-
-
 
 .founders__img-proper {
   min-width: 500px;
@@ -449,10 +478,12 @@
   border-radius: 50%;
   justify-content: center;
   background: rgb(206, 148, 107);
-  background: linear-gradient(0deg,
-      rgba(206, 148, 107, 1) 0%,
-      rgba(206, 148, 107, 0.753) 36%,
-      rgba(206, 148, 107, 0) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(206, 148, 107, 1) 0%,
+    rgba(206, 148, 107, 0.753) 36%,
+    rgba(206, 148, 107, 0) 100%
+  );
   transform: rotate(-3deg);
 }
 

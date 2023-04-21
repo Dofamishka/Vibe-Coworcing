@@ -1,0 +1,155 @@
+@media (max-width: 1500px) {
+  .intro__note__arc {
+    height: 100px;
+    width: 120px;
+    left: 470px;
+  }
+
+  .intro__textNote {
+    max-width: 100px;
+    left: 540px;
+  }
+}
+
+@media (max-width: 1360px) {
+  /*-----------------Header-----------------*/
+  .intro__container {
+    width: 100%;
+    min-width: 100%;
+    min-height: 550px;
+  }
+
+  .intro__item-vacancies {
+    max-width: 1180px;
+    margin: 0 50% 0 13%;
+  }
+
+  .intro__content {
+    max-width: 435px;
+    min-width: 353px;
+  }
+
+  .intro__textMain {
+    margin-bottom: 8%;
+  }
+
+  .intro__btn {
+    width: 272px;
+    height: 82px;
+    font-size: 15px;
+  }
+
+  .intro__note__arc {
+    height: 100px;
+    width: 120px;
+    transform: rotate(120deg);
+    top: 400px;
+    margin: 0 -21%;
+  }
+
+  .intro__textNote {
+    max-width: 100px;
+    top: 485px;
+    margin: 0 -20%;
+  }
+
+  /*-----------------Vacancies-----------------*/
+  .vacancies {
+    margin-bottom: 120px;
+  }
+
+  .vacancies__btn {
+    margin-bottom: 120px;
+  }
+
+  .vacancies__content {
+    margin-bottom: 40px;
+  }
+
+  .vacancies__btn-button {
+    font-size: 13px;
+    line-height: 16px;
+    height: 63px;
+    width: 260px;
+  }
+
+  .vacancies__card {
+    padding: 50px 0;
+  }
+
+  .vacancies__card:first-child {
+    padding: 0 0 50px 0;
+  }
+
+  .vacancies__card-title {
+    font-family: "tenor sans";
+    font-size: 22px;
+    line-height: 26px;
+    max-width: 465px;
+  }
+
+  .vacancies__card__textBold {
+    width: 112px;
+  }
+
+  .vacancies__card-btn {
+    height: 65px;
+    width: 195px;
+    font-size: 11px;
+  }
+
+  .vacancies__expand-link {
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+  }
+
+  /*-----------------Subscription-----------------*/
+  .subscription {
+    margin-bottom: 150px;
+  }
+
+  .subscription__container {
+    height: 340px;
+    max-width: 1230px;
+  }
+
+  .subscription__photo {
+    transform: translateY(-20px);
+    max-width: 473px;
+  }
+
+  .subscription__titleMain {
+    margin: 0 30px 35px 0;
+    max-width: 625px;
+  }
+
+  .subscription__btn {
+    height: 80px;
+    width: 325px;
+    display: flex;
+    font-size: 14px;
+  }
+
+  /*-----------------Worth-----------------*/
+  .worth {
+    margin-bottom: 200px;
+  }
+
+  .worth__titleBig {
+    max-width: 720px;
+    line-height: 47px;
+    margin: 0 auto 60px auto;
+  }
+
+  .worth__icon {
+    margin-bottom: 20px;
+    display: flex;
+    width: 85px;
+    height: 85px;
+  }
+
+  .worth__card__textBold {
+    max-width: 155px;
+  }
+}

@@ -1,0 +1,129 @@
+@media (max-width: 1360px) {
+  /*-----------------Header-----------------*/
+
+  .intro__container {
+    width: 100%;
+  }
+
+  .intro__titleBig {
+    max-width: 735px;
+  }
+
+  .intro__titleBig {
+    margin-bottom: 4%;
+  }
+
+  /*-----------------Description-----------------*/
+  .description__container {
+    margin-bottom: 150px;
+  }
+
+  .description__titleMain {
+    max-width: 730px;
+    margin: 0 auto 50px auto;
+  }
+
+  .description__titleText {
+    max-width: 625px;
+    margin: 0 auto 103px auto;
+  }
+
+  .description1__content {
+    display: flex;
+  }
+
+  .description1__photo {
+    width: 65%;
+    min-height: 405px;
+  }
+
+  .description1__photo-img1 {
+    max-width: 400px;
+    max-height: 290px;
+  }
+
+  .description1__photo-img1 img {
+    max-width: 400px;
+    max-height: 290px;
+  }
+
+  .description1__photo-img2 {
+    max-width: 250px;
+    max-height: 182px;
+    left: 43%;
+    top: 43%;
+  }
+
+  .description1__photo-img2 img {
+    max-width: 250px;
+    max-height: 182px;
+  }
+
+  .description1__item {
+    width: 35%;
+  }
+
+  .descriptio1__titleSubordinate {
+    max-width: 265px;
+    margin-bottom: 27px;
+  }
+
+  .description1__textMain {
+    max-width: 315px;
+    margin-bottom: 40px;
+  }
+
+  .description__btn1 {
+    width: 270px;
+    height: 85px;
+    font-size: 14px;
+  }
+
+  .description2__content {
+    max-width: 800px;
+  }
+
+  .description__note__arc {
+    height: 100px;
+    width: 150px;
+    left: 88%;
+    top: -41%;
+  }
+
+  .description2__item {
+    width: 60%;
+  }
+
+  .description2__titleSubordinate {
+    max-width: 265px;
+    margin-bottom: 27px;
+  }
+
+  .description2__textMain {
+    max-width: 315px;
+    margin-bottom: 40px;
+  }
+
+  .description__btn2 {
+    width: 270px;
+    height: 85px;
+    font-size: 14px;
+  }
+
+  .description2__photo-img1 {
+    max-width: 400px;
+    min-height: 290px;
+  }
+
+  .description2__photo-img1 img {
+    max-width: 400px;
+    min-height: 290px;
+  }
+
+  .description2__photo-img2 {
+    max-width: 300px;
+    max-height: 145px;
+    left: 77%;
+    top: 49%;
+  }
+}
