@@ -267,7 +267,7 @@
 }
 
 .article__img {
-  margin-bottom: 66px;
+  margin-bottom: 85px;
 }
 
 .article__img-top {
@@ -289,18 +289,20 @@
 }
 
 .article__content {
-  padding-left: 7%;
+  margin: 0 auto;
+  min-width: 950px;
+  max-width: 1085px;
 }
 
 .article__titleSubordinate {
+  max-width: 485px;
   margin-bottom: 40px;
-  max-width: 480px;
 }
 
 .article__text {
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .firstColumn {
@@ -634,7 +636,7 @@
   margin-bottom: 25px;
 }
 
-/*-----------------Article-----------------*/
+/*-----------------Statistics-----------------*/
 .statistics {
   margin-bottom: 200px;
 }
@@ -695,7 +697,7 @@
   height: fit-content;
 }
 
-/*-----------------Article-----------------*/
+/*-----------------Cards-----------------*/
 .cards {
   margin-bottom: 195px;
 }
@@ -897,64 +899,29 @@
 
 /*-----------------Feedback-----------------*/
 .feedback {
-  margin: 0 auto;
   height: 890px;
   max-width: 1919px;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  z-index: 5;
-  overflow: hidden;
 }
 
 .feedback__bg {
-  background-color: rgba(54, 51, 72, 1);
-  position: absolute;
   height: 1000px;
   width: 5000px;
-  border-radius: 50%;
-  z-index: 0;
-  overflow: hidden;
 }
 
 .feedback__bg-mask {
   background: url(../img/Vacancies.img/Feedback/mask.png);
   z-index: 50;
-  height: 755px;
-}
-
-.feedback__container {
-  color: #ffff;
-  padding-top: 215px;
-  position: relative;
+  height: 3000px;
 }
 
 .feedback__img {
   position: absolute;
   z-index: -500000;
   bottom: 100px;
-  left: 900px;
-}
-
-.feedback__titleBig {
-  margin-bottom: 45px;
-}
-
-.feedback__text {
-  margin-bottom: 60px;
-  font-size: 24px;
-  line-height: 39px;
-  max-width: 1036px;
-
-  color: rgba(255, 255, 255, 1);
 }
 
 .feedback__form {
-  margin-bottom: 35px;
-  display: flex;
-  justify-content: space-between;
   align-items: flex-end;
-  max-width: 1096px;
 }
 
 .feedback__blockContact {
@@ -966,248 +933,13 @@
 
 .feedback__form-contact {
   margin-bottom: 25px;
-  height: 98px;
-  width: 357px;
   background-color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-
-  border: 1px solid rgba(250, 250, 250, 0.165952);
-  box-shadow: inset 0px 1px 4px rgba(193, 203, 202, 0.212751);
-  border-radius: 7px;
 }
 
 .feedback__form-contact:nth-child(n + 3) {
   margin-bottom: 0;
 }
 
-.feedback__form-icon {
-  margin-right: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 32px;
-  height: 32px;
-
-  background: linear-gradient(131.39deg, #ebbe9d 13.55%, #dfab86 80.5%);
-  border-radius: 50%;
-}
-
-.feedback__inpyt {
-  font-family: "TTNorms-Regular";
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 17px;
-
-  color: rgba(157, 157, 176, 1);
-
-  padding-left: 20px;
-  border-left: 1px solid #f0f0f0;
-  border-right: 0;
-  border-bottom: 0;
-  border-top: 0;
-}
-
 .feedback__form__btn {
   width: 334px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  position: relative;
-}
-
-.feedback__form__sending {
-  background: transparent;
-  border: transparent;
-  font-size: 14px;
-  line-height: 17px;
-  color: rgba(255, 255, 255, 1);
-}
-
-.feedback__PrivacyPolicy {
-  max-width: 1096px;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.feedback__PrivacyPolicy-item {
-  max-width: 334px;
-  font-family: "TTNorms-Regular";
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 20px;
-  cursor: pointer;
-  padding-left: 5px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.feedback__PrivacyPolicy-chekbox {
-  content: "";
-  display: block;
-  height: 15px;
-  width: 15px;
-  margin-right: 10px;
-  border-radius: 15%;
-  text-align: center;
-
-  position: relative;
-  top: 2px;
-  background-color: #ecd4c1;
-}
-
-.feedback__PrivacyPolicy-link {
-  display: inline-block;
-}
-
-.feedback__PrivacyPolicy-chekbox::before {
-  content: "";
-  position: absolute;
-  width: 5px;
-  height: 8px;
-  border-right: 1.5px #363348 solid;
-  border-bottom: 1.5px #363348 solid;
-  border-top: none;
-  border-left: none;
-  z-index: 10000000;
-  margin: auto;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  /* transform: translate(-30%, -30%); */
-  transition: 0.8s;
-  transform: rotate(30deg);
-  display: block;
-  opacity: 1;
-  /* opacity: 0; */
-}
-
-input[type="checkbox"] {
-  display: none;
-}
-
-input.checkbox:checked + div > span::before {
-  /* opacity: 1; */
-  /* display: none; */
-  opacity: 0;
-}
-
-/*-----------------
-Footer-----------------*/
-.footer {
-  border-top: 1px solid rgba(233, 233, 241, 1);
-}
-
-.footer__content {
-  height: 370px;
-  display: flex;
-  padding: 117px 0;
-}
-
-.footer__item {
-  width: 50%;
-}
-
-.footer__logo {
-  max-width: 170px;
-  max-height: 54px;
-}
-
-.footer__contacts {
-  margin-top: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.footer__icon {
-  margin-right: 16px;
-  transition: 0.5s;
-}
-
-.footer__icon:hover {
-  opacity: 0.5;
-  transition: 0.5s;
-}
-
-.footer__telephone {
-  margin-left: 15px;
-}
-
-.footer__telephone-number {
-  font-size: 27px;
-  font-weight: 400;
-  line-height: 26px;
-  color: rgba(52, 52, 63, 1);
-  transition: 0.5s;
-}
-
-.footer__telephone-number:hover {
-  opacity: 0.7;
-}
-
-.footer__telephone-call {
-  display: flex;
-  align-items: center;
-  font-size: 14px;
-  color: rgba(206, 148, 107, 1);
-}
-
-.footer__telephone-call:hover {
-  opacity: 0.5;
-  transition: 0.5s;
-}
-
-.footer__telephone-call-icon {
-  margin-right: 8px;
-}
-
-.footer__navigation {
-  width: 25%;
-}
-
-.footer__link {
-  font-size: 16px;
-  color: rgba(52, 52, 63, 1);
-  line-height: 40px;
-  text-transform: uppercase;
-  transition: 0.5s;
-}
-
-.footer__link:hover {
-  color: rgba(248, 230, 226, 1);
-}
-
-.footer__privacyPolicy {
-  height: 70px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-
-  border-left: none;
-  border-right: none;
-  border-bottom: none;
-  border-top: 1px solid;
-  border-image: linear-gradient(
-      to right,
-      rgba(233, 233, 241, 0.0001),
-      rgba(222, 222, 229, 1),
-      rgba(233, 233, 241, 0.0001)
-    )
-    100% 0%;
-}
-
-.footer__privacyPolicy-text {
-  margin: 0 auto;
-  font-size: 14px;
-  color: rgba(165, 165, 179, 1);
-  transition: 0.5s;
-}
-
-.footer__privacyPolicy-text:hover {
-  opacity: 0.7;
 }

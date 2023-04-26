@@ -265,14 +265,361 @@
   }
 }
 
-@media (max-width: 992px) {
-  [class*="__container"] {
-    max-width: 805px;
+@media (max-width: 996px) {
+  /*-----------------Header-----------------*/
+  .intro__container {
+    width: 100%;
   }
 
-  [class*="__titleBig"] {
-    font-size: 36px;
-    line-height: 58px;
+  .intro__titleBig {
+    max-width: 65rem;
+    margin-bottom: 5%;
+  }
+
+  .btn__intro {
+    margin: 0 auto 8% auto;
+    max-width: 7rem;
+    max-height: 7rem;
+  }
+
+  /*-----------------Branches-----------------*/
+  .branches {
+    margin-bottom: 10rem;
+  }
+
+  .branches__paragraph {
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+    margin-bottom: 6rem;
+  }
+
+  .branhes__data:nth-child(3n) {
+    max-width: 20rem;
+  }
+
+  .branches__number {
+    font-size: 7.2rem;
+    line-height: 8.5rem;
+  }
+
+  .branches__title {
+    font-size: 2.8rem;
+    line-height: 3.3rem;
+  }
+
+  .branches__textBold {
+    margin-bottom: 5rem;
+    max-width: 165px;
+  }
+
+  .branchesExplanation__textBold {
+    background: url(../img/marker.png) no-repeat 0 0.5rem;
+    background-size: 1.1rem;
+    padding-left: 1.5rem;
+  }
+
+  /*-----------------Plans-----------------*/
+  .plans {
+    margin-bottom: 7.5rem;
+  }
+
+  .plans__titleBig {
+    max-width: 34.5rem;
+    margin: 0 auto 5.5rem auto;
+  }
+
+  .plansSubtitle__titleBig {
+    margin-bottom: 1.7rem;
+  }
+
+  .plans__text {
+    max-width: 74.6rem;
+  }
+
+  /*----------Diagramma------------*/
+  .diagramma {
+    margin-bottom: 8rem;
+  }
+
+  .diagramma__container {
+    height: 65.8rem;
+    max-height: 100%;
+    background-size: 60rem auto;
+  }
+
+  .diagramma__levl {
+    margin: 0 0 0 43%;
+  }
+
+  .diagramma__titleBig {
+    margin-bottom: 1rem;
+  }
+
+  .diagramma__text {
+    max-width: 24.5rem;
+  }
+
+  .diagramma__textNote {
+    max-width: 11rem;
+    top: 14%;
+    left: 11%;
+  }
+
+  .diagramma__note__arc {
+    height: 8rem;
+    width: 11rem;
+    top: 21%;
+    left: 11%;
+  }
+
+  .diagramma__titleMain {
+    top: 30%;
+    left: 14.5%;
+  }
+
+  /*-----------------Slant-----------------*/
+  .slant {
+    margin-bottom: 12.5rem;
+  }
+
+  .slant__titleBig {
+    margin: 0 auto 2.5rem auto;
+    max-width: 60.5rem;
+  }
+
+  .slant__text {
+    max-width: 65rem;
+    margin: 0 auto 4.5rem auto;
+  }
+
+  .slant__slider {
+    margin-bottom: 3%;
+  }
+
+  .slant__img {
+    width: 60%;
+    z-index: 1000;
+  }
+
+  .slant__img img {
+    width: 100%;
+    max-width: 54rem;
+    max-height: 35.5rem;
+  }
+
+  .slant__specifiation {
+    margin-left: 5%;
+    width: 40%;
+  }
+
+  .slant__navigation {
+    max-width: 20rem;
+  }
+
+  .slant__textBold {
+    margin-bottom: 4rem;
+    line-height: 2rem;
+    max-width: 19rem;
+
+    background: url(../img/marker.png) no-repeat 0 0.5rem;
+    background-size: 1.1rem;
+    padding-left: 1.5rem;
+  }
+
+  .slant__btn {
+    height: 2rem;
+    width: 2rem;
+    border: 0.1rem solid #dedee5;
+  }
+
+  .slant__btn_prev::before {
+    height: 0.51rem;
+    width: 0.51rem;
+    border-top: solid#E6B794 0.2rem;
+    border-left: solid #e6b794 0.2rem;
+    margin-right: -0.2rem;
+  }
+
+  .slant__btn_next::before {
+    height: 0.51rem;
+    width: 0.51rem;
+    border-top: solid#E6B794 0.2rem;
+    border-left: solid #e6b794 0.2rem;
+    margin-right: 0.2rem;
+  }
+
+  .slant__number {
+    padding: 0 3rem;
+  }
+
+  .slant__navigation:before {
+    display: none;
+  }
+
+  .slant__active {
+    font-size: 3.6rem;
+  }
+
+  .slant__indicators {
+    max-width: 15rem;
+    padding-left: 8rem;
+  }
+
+  .slant__indicators-item {
+    width: 0.3rem;
+    height: 0.3rem;
+    border-radius: 50%;
+  }
+
+  .slantIndicator__active::before {
+    border-radius: 50%;
+    height: 1rem;
+    width: 1rem;
+    border: solid 0.1rem #c88c61;
+  }
+
+  /*-----------------Facilities-----------------*/
+  .facilities {
+    margin-bottom: 13rem;
+  }
+
+  .facilities__titleBig {
+    max-width: 56.5rem;
+  }
+
+  .facilities__list {
+    height: 58rem;
+  }
+
+  .facilities__list-number img {
+    max-width: 15rem;
+    height: 14rem;
+  }
+  .facilities__list-number:first-child img {
+    max-width: 15rem;
+    height: 14rem;
+  }
+
+  .facilities__textBold {
+    font-size: 1.1rem;
+    line-height: 2rem;
+    max-width: 18rem;
+  }
+
+  /*-----------------Founders-----------------*/
+  .founders {
+    margin-bottom: 15rem;
+  }
+
+  .founders__titleBig {
+    margin: 0 auto 6.5rem auto;
+    max-width: 58rem;
+  }
+
+  .founders__item {
+    margin-bottom: 6rem;
+    max-width: 88rem;
+  }
+
+  .founders__item-img {
+    width: 30%;
+  }
+
+  .founders__img-proper {
+    min-width: 0;
+    max-width: 36rem;
+    min-height: 0;
+    max-height: 38rem;
+  }
+
+  .founders__item-content {
+    width: 58%;
+    max-width: 41.5rem;
+  }
+
+  .founders__icon {
+    margin-bottom: 6%;
+    max-width: 7rem;
+  }
+
+  .founders__quote {
+    max-width: 31rem;
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  .founders__quote-address h3 {
+    font-size: 1.8rem;
+    line-height: 2.25rem;
+  }
+
+  .founders__quote-address {
+    margin: 0 auto;
+    font-size: 1.2rem;
+  }
+
+  .founders__slider {
+    margin-bottom: 8%;
+  }
+
+  .founders__slider-img {
+    max-width: 27.5rem;
+  }
+
+  .founders__slider-line {
+    height: 2rem;
+    max-width: 50rem;
+  }
+
+  .founders__slider-indicator {
+    height: 0.1rem;
+    width: 33.3333%;
+  }
+
+  .founders__slider_active {
+    height: 0.2rem;
+  }
+
+  /*-----------------Advantage-----------------*/
+  .advantage {
+    margin-bottom: 4rem;
+  }
+
+  .advantage__titleBig {
+    max-width: 85rem;
+    margin: 0 auto 9rem auto;
+  }
+
+  .advantage__item {
+    max-width: 77rem;
+    height: 60rem;
+  }
+
+  .advantage__element {
+    max-width: 33.333%;
+    height: 25rem;
+    text-align: center;
+    margin: 0 3%;
+  }
+
+  .advantage__icon {
+    max-width: 10.5rem;
+    max-height: 10.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .advantage__textBold {
+    width: 17rem;
+    line-height: 2rem;
+  }
+
+  .advantage__semicircle {
+    display: none;
+  }
+
+  .advantage__semicircle::before {
+    display: none;
   }
 }
 

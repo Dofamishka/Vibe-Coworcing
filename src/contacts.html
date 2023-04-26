@@ -1,321 +1,493 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vibe Covarcing</title>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/stylesheetContacts.css">
-    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
-    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript">
-    </script>
-</head>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/joint.css" />
+    <link rel="stylesheet" href="css/stylesheetContacts.css" />
+    <link rel="stylesheet" href="css/stylesheetContactsAdaptive.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"
+      type="text/javascript"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <div class="wrapper">
-        <header class="header">
-            <div class="header__container">
-                <div class="header__logo">
-                    <img class="img__logo" src="img/header/logo.png" alt="Логотип">
-                    <div class="logo__line"></div>
-                    <div class="logo__text">Бьюти коворкинг в&nbsp;Mоскве</div>
-                </div>
+      <header class="header">
+        <div class="header__container">
+          <div class="header__burger">
+            <div class="header__burger-line"></div>
+            <div class="header__burger-line"></div>
+            <div class="header__burger-line"></div>
+          </div>
 
-                <nav class="menu">
-                    <ul class="menu__list">
-                        <li class="menu__item">
-                            <a class="menu__link" href="index.html">О&nbsp;нас
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="vacanciesVibe.html">Вакансии
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a class="menu__link" href="reservationVibe.html">Забронировать
+          <nav class="menu__burger">
+            <ul class="menu__burger-list">
+              <li class="menu__burger-item">
+                <a class="menu__burger-linkActive" href="">О&nbsp;нас </a>
+              </li>
+              <li class="menu__burger-item">
+                <a class="menu__burger-link" href="vacanciesVibe.html"
+                  >Вакансии
+                </a>
+              </li>
+              <li class="menu__burger-item">
+                <a class="menu__burger-link" href="reservationVibe.html"
+                  >Забронировать
+                </a>
+              </li>
+              <li class="menu__burger-item">
+                <a class="menu__burger-link" href="contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__logo">
+            <img class="img__logo" src="img/header/logo.png" alt="Логотип" />
+            <div class="logo__line"></div>
+            <div class="logo__text">Бьюти коворкинг в&nbsp;Mоскве</div>
+          </div>
 
-                            </a>
-                        </li>
-                        <li class="menu__item">
-                            <a class="menu__link_active" href="">Контакты</a>
-                        </li>
-                    </ul>
-                </nav>
+          <nav class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="index.html">О&nbsp;нас </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="vacanciesVibe.html">Вакансии </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link" href="reservationVibe.html"
+                  >Забронировать
+                </a>
+              </li>
+              <li class="menu__item">
+                <a class="menu__link_active" href="">Контакты</a>
+              </li>
+            </ul>
+          </nav>
 
-                <div class="header__contact">
-                    <a class="phone__call_text">
-                        <img class="phoneCall__icon" src="img\header\phone.png" alt="Иконка">
-                        <div class="header__span"> Обратный
-                            звонок</div>
-                    </a>
-                </div>
-            </div>
-        </header>
-
-        <main>
-            <div class="communication">
-                <div class="communication__container">
-
-                    <div class="communication__titleBig">НАШИ<span class="beigeText"> КОНТАКТЫ</span></div>
-
-                    <div class="communication__data">
-                        <div class="communication__data-item">
-                            <div class="communicationData__titleText beigeText"><img src="img/Contacts/phone.png"
-                                    alt="">Звонок
-                                бесплатный</div>
-                            <a class="communicationData__titleSubordinate" href="tel:+79806879898">+7
-                                (980)
-                                687-98-98</a>
-                        </div>
-
-                        <div class="communication__data-item">
-                            <div class="communicationData__titleText beigeText"><img src="img/Contacts/e-mail.png"
-                                    alt="">Контактный e-mail</div>
-                            <a class="communicationData__titleSubordinate" href="mailto:booking@sircat.ru"
-                                target="_blank">booking@sircat.ru</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="communication__map">
-                    <script type="text/javascript" charset="utf-8" async
-                        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A69d1a6ecf8c2704cce9866a5111cecf7e25fd3f4671210eebd6909f1d96b24c1&amp;width=100%25&amp;height=615&amp;lang=ru_RU&amp;scroll=true"></script>
-                </div>
-            </div>
-
-            <div class="branches">
-                <div class="branches__container">
-                    <div class="branches__titleBig">ВСЕ НАШИ <span class="beigeText">КОВОРКИНГИ</span></div>
-
-
-                    <div class="branches__item">
-                        <div class="branches__item-img">
-                            <img src="img/Contacts/branches/photo_1.png" alt="">
-                        </div>
-
-                        <div class="branches__item-content">
-                            <div class="branches__titleMain">Vibe Covorking на Новом Арбате: светлые тона и
-                                деликатные акценты
-                            </div>
-                            <div class="branches__contact-M"><img src="img/Contacts/branches/icon_M.png" alt="">станция
-                                метро Замоскворецкая</div>
-                            <a class="branches__contact"
-                                href="https://yandex.ru/maps/?from=mapframe&ll=37.175265%2C55.917344&mode=usermaps&source=mapframe&um=constructor%3A69d1a6ecf8c2704cce9866a5111cecf7e25fd3f4671210eebd6909f1d96b24c1&utm_source=mapframe&z=9"
-                                target="_blank"><img src="img/Contacts/branches/icon_map.png" alt="">ул.
-                                Французский бульвар 16ф, корпус 2</a>
-                            <a href="tel:+79806879898" class="branches__contact"><img
-                                    src="img/Contacts/branches/icon_phone.png" alt="">+7
-                                (980) 687-98-98</a>
-                            <a class="branches__contact" href="https://www.instagram.com/" target="_blank"><img src="
-                                img/Contacts/branches/icon_inst.png" alt="">@vibearbat.ru</a>
-                        </div>
-                    </div>
-
-                    <div class="branches__item">
-                        <div class="branches__item-img">
-                            <img src="img/Contacts/branches/photo_2.png" alt="">
-                        </div>
-
-                        <div class="branches__item-content">
-                            <div class="branches__titleMain">Vibe Covorking на Новом Арбате: светлые тона и
-                                деликатные акценты
-                            </div>
-                            <div class="branches__contact-M"><img src="img/Contacts/branches/icon_M.png" alt="">станция
-                                метро Замоскворецкая</div>
-                            <a class="branches__contact"
-                                href="https://yandex.ru/maps/?from=mapframe&ll=37.175265%2C55.917344&mode=usermaps&source=mapframe&um=constructor%3A69d1a6ecf8c2704cce9866a5111cecf7e25fd3f4671210eebd6909f1d96b24c1&utm_source=mapframe&z=9"
-                                target="_blank"><img src="img/Contacts/branches/icon_map.png" alt="">ул.
-                                Французский бульвар 16ф, корпус 2</a>
-                            <a href="tel:+79806879898" class="branches__contact"><img
-                                    src="img/Contacts/branches/icon_phone.png" alt="">+7
-                                (980) 687-98-98</a>
-                            <a class="branches__contact" href="https://www.instagram.com/" target="_blank"><img src="
-                                img/Contacts/branches/icon_inst.png" alt="">@vibearbat.ru</a>
-                        </div>
-                    </div>
-
-                    <div class="branches__item">
-                        <div class="branches__item-img">
-                            <img src="img/Contacts/branches/photo_3.png" alt="">
-                        </div>
-
-                        <div class="branches__item-content">
-                            <div class="branches__titleMain">Vibe Covorking на Новом Арбате: светлые тона и
-                                деликатные акценты
-                            </div>
-                            <div class="branches__contact-M"><img src="img/Contacts/branches/icon_M.png" alt="">станция
-                                метро Замоскворецкая</div>
-                            <a class="branches__contact"
-                                href="https://yandex.ru/maps/?from=mapframe&ll=37.175265%2C55.917344&mode=usermaps&source=mapframe&um=constructor%3A69d1a6ecf8c2704cce9866a5111cecf7e25fd3f4671210eebd6909f1d96b24c1&utm_source=mapframe&z=9"
-                                target="_blank"><img src="img/Contacts/branches/icon_map.png" alt="">ул.
-                                Французский бульвар 16ф, корпус 2</a>
-                            <a href="tel:+79806879898" class="branches__contact"><img
-                                    src="img/Contacts/branches/icon_phone.png" alt="">+7
-                                (980) 687-98-98</a>
-                            <a class="branches__contact" href="https://www.instagram.com/" target="_blank"><img src="
-                                img/Contacts/branches/icon_inst.png" alt="">@vibearbat.ru</a>
-                        </div>
-                    </div>
-
-                    <div class="branches__item">
-                        <div class="branches__item-img">
-                            <img src="img/Contacts/branches/photo_4.png" alt="">
-                        </div>
-
-                        <div class="branches__item-content">
-                            <div class="branches__titleMain">Vibe Covorking на Новом Арбате: светлые тона и
-                                деликатные акценты
-                            </div>
-                            <div class="branches__contact-M"><img src="img/Contacts/branches/icon_M.png" alt="">станция
-                                метро Замоскворецкая</div>
-                            <a class="branches__contact"
-                                href="https://yandex.ru/maps/?from=mapframe&ll=37.175265%2C55.917344&mode=usermaps&source=mapframe&um=constructor%3A69d1a6ecf8c2704cce9866a5111cecf7e25fd3f4671210eebd6909f1d96b24c1&utm_source=mapframe&z=9"
-                                target="_blank"><img src="img/Contacts/branches/icon_map.png" alt="">ул.
-                                Французский бульвар 16ф, корпус 2</a>
-                            <a href="tel:+79806879898" class="branches__contact"><img
-                                    src="img/Contacts/branches/icon_phone.png" alt="">+7
-                                (980) 687-98-98</a>
-                            <a class="branches__contact" href="https://www.instagram.com/" target="_blank"><img src="
-                                img/Contacts/branches/icon_inst.png" alt="">@vibearbat.ru</a>
-                        </div>
-                    </div>
-
-                    <div class="branches__expand">
-                        <a href="" class="branches__expand-link">показать еще</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="feedback">
-                <div class="feedback__bg">
-                    <div class="feedback__bg-mask">
-                        <div class="feedback__container">
-                            <img class="feedback__img" src="img\Vacancies.img\Feedback\green.png" alt="">
-
-                            <div class="feedback__titleBig">РАЗДЕЛ<span class="beigeText"> ДЛЯ СМИ</span>
-                            </div>
-                            <div class="feedback__text">Если вы не нашли подходящей вакансии, пишите нам. Рассмотрим
-                                специалиста на
-                                любую
-                                позицию. Если вы чувствуете, что можете помочь усилить наш бренд, и готовы делать это,
-                                напишите прямо
-                                сейчас.
-                            </div>
-
-                            <form action="" method="" class="feedback__form">
-                                <div class="feedback__form-contact">
-                                    <div class="feedback__form-icon"><img src="img/Vacancies.img/Feedback/Shape.png"
-                                            alt="иконка"></div>
-                                    <input type="text" name="number" placeholder="+7 (___) ___ - __ -__"
-                                        pattern="\+?[0-9\s\-\(\)]+" class="feedback__inpyt">
-                                </div>
-
-                                <div class="feedback__form-contact">
-                                    <div class="feedback__form-icon"><img src="img/formIcon/email.png" alt="иконка">
-                                    </div>
-                                    <input type="email" name="email" placeholder="E-mail" pattern="[a-z]{1,15}"
-                                        class="feedback__inpyt">
-
-                                </div>
-                                <div class="feedback__form__btn main_btn"><input type="submit"
-                                        class="feedback__form__sending" value="НАПИСАТЬ НАМ"><img
-                                        src="img/Vacancies.img/header/icon.png" alt="указатель" class="main_btnicon">
-                                </div>
-                            </form>
-
-                            <div class="feedback__PrivacyPolicy">
-                                <label class="feedback__PrivacyPolicy-item" for="input__PrivacyPolicy">
-                                    <input class="checkbox" type="checkbox" id="input__PrivacyPolicy">
-
-                                    <div>
-                                        <span class="feedback__PrivacyPolicy-chekbox"></span>
-                                    </div>
-                                    <div>
-                                        Я согласна на обработку моих персональных
-                                        данных
-                                        в соответствии<a href="" class="beigeText feedback__PrivacyPolicy-link"> &nbsp;
-                                            с условиями</a>
-                                    </div>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-
-        <footer class="footer">
-            <div class="footer__container">
-                <div class="footer__content">
-                    <div class="footer__item">
-                        <img src="img/footer/logo.png" alt="логотип" class="footer__logo" />
-
-                        <div class="footer__contacts">
-                            <a href="https://www.instagram.com/" target="_blank"><img src="img/footer/insta__icon.png"
-                                    alt="иконка инстаграмма" class="footer__icon" /></a>
-                            <a href="https://web.whatsapp.com/" target="_blank"><img src="img/footer/whats__icon.png"
-                                    alt="иконка ватсапа" class="footer__icon" /></a>
-
-                            <div class="footer__telephone">
-                                <a href="tel:+79806879898">
-                                    <div class="footer__telephone-number">
-                                        +7 (980) 687-98-98
-                                    </div>
-                                    <div class="footer__telephone-call">
-                                        <img class="footer__telephone-call-icon" src="img\footer\phone.png"
-                                            alt="иконка телефона" />Звонок
-                                        бесплатный
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="footer__navigation">
-                        <ol>
-                            <li class="footer__link">
-                                <a class="footer__link" href="">О НАС</a>
-                            </li>
-                            <li class="footer__link">
-                                <a class="footer__link" href="">ВАКАНСИИ</a>
-                            </li>
-                            <li class="footer__link">
-                                <a class="footer__link" href="">ЗАБРОНИРОВАТЬ</a>
-                            </li>
-                            <li class="footer__link">
-                                <a class="footer__link" href="">КОНТАКТЫ</a>
-                            </li>
-                        </ol>
-                    </div>
-
-                    <div class="footer__navigation">
-                        <ol>
-                            <li class="footer__link">
-                                <a class="footer__link" href="">СТАТЬИ</a>
-                            </li>
-                            <li class="footer__link">
-                                <a class="footer__link" href="">ФРАНШИЗА</a>
-                            </li>
-                            <li class="footer__link">
-                                <a class="footer__link" href="">ЦЕНЫ</a>
-                            </li>
-                            <li class="footer__link">
-                                <a class="footer__link" href="">ПРАВОВАЯ ИНФОРМАЦИЯ </a>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-        <div class="footer__privacyPolicy">
-            <div class="footer__privacyPolicy-text"><a class="footer__privacyPolicy-text" href="">Политика
-                    конфидециальности</a>
-            </div>
+          <div class="header__contact">
+            <a class="phone__call_text">
+              <img
+                class="phoneCall__icon"
+                src="img\header\phone.png"
+                alt="Иконка"
+              />
+              <div class="header__span">Обратный звонок</div>
+            </a>
+          </div>
         </div>
-    </div>
-</body>
+      </header>
 
+      <main>
+        <div class="communication">
+          <div class="communication__container">
+            <div class="communication__titleBig">
+              НАШИ<span class="beigeText"> КОНТАКТЫ</span>
+            </div>
+
+            <div class="communication__data">
+              <div class="communication__data-item">
+                <div class="communicationData__titleText beigeText">
+                  <img src="img/Contacts/phone.png" alt="" />Звонок бесплатный
+                </div>
+                <a
+                  class="communicationData__titleSubordinate"
+                  href="tel:+79806879898"
+                  >+7 (980) 687-98-98</a
+                >
+              </div>
+
+              <div class="communication__data-item">
+                <div class="communicationData__titleText beigeText">
+                  <img src="img/Contacts/e-mail.png" alt="" />Контактный e-mail
+                </div>
+                <a
+                  class="communicationData__titleSubordinate"
+                  href="mailto:booking@sircat.ru"
+                  target="_blank"
+                  >booking@sircat.ru</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="communication__map">
+            <script
+              type="text/javascript"
+              charset="utf-8"
+              async
+              src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A69d1a6ecf8c2704cce9866a5111cecf7e25fd3f4671210eebd6909f1d96b24c1&amp;width=100%25&amp;height=615&amp;lang=ru_RU&amp;scroll=true"
+            ></script>
+          </div>
+        </div>
+
+        <div class="branches">
+          <div class="branches__container">
+            <div class="branches__titleBig">
+              ВСЕ НАШИ <span class="beigeText">КОВОРКИНГИ</span>
+            </div>
+
+            <div class="branches__item">
+              <div class="branches__item-img">
+                <img
+                  class="border-main"
+                  src="img/Contacts/branches/photo_1.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="branches__item-content">
+                <div class="branches__titleMain">
+                  Vibe Covorking на Новом Арбате: светлые тона и деликатные
+                  акценты
+                </div>
+                <div class="branches__contact-M">
+                  <img src="img/Contacts/branches/icon_M.png" alt="" />станция
+                  метро Замоскворецкая
+                </div>
+                <a
+                  class="branches__contact"
+                  href="https://yandex.ru/maps/?from=mapframe&ll=37.175265%2C55.917344&mode=usermaps&source=mapframe&um=constructor%3A69d1a6ecf8c2704cce9866a5111cecf7e25fd3f4671210eebd6909f1d96b24c1&utm_source=mapframe&z=9"
+                  target="_blank"
+                  ><img src="img/Contacts/branches/icon_map.png" alt="" />ул.
+                  Французский бульвар 16ф, корпус 2</a
+                >
+                <a href="tel:+79806879898" class="branches__contact"
+                  ><img src="img/Contacts/branches/icon_phone.png" alt="" />+7
+                  (980) 687-98-98</a
+                >
+                <a
+                  class="branches__contact"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  ><img
+                    src="
+                                img/Contacts/branches/icon_inst.png"
+                    alt=""
+                  />@vibearbat.ru</a
+                >
+              </div>
+            </div>
+
+            <div class="branches__item">
+              <div class="branches__item-img">
+                <img
+                  class="border-main"
+                  src="img/Contacts/branches/photo_2.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="branches__item-content">
+                <div class="branches__titleMain">
+                  Vibe Covorking на Новом Арбате: светлые тона и деликатные
+                  акценты
+                </div>
+                <div class="branches__contact-M">
+                  <img src="img/Contacts/branches/icon_M.png" alt="" />станция
+                  метро Замоскворецкая
+                </div>
+                <a
+                  class="branches__contact"
+                  href="https://yandex.ru/maps/?from=mapframe&ll=37.175265%2C55.917344&mode=usermaps&source=mapframe&um=constructor%3A69d1a6ecf8c2704cce9866a5111cecf7e25fd3f4671210eebd6909f1d96b24c1&utm_source=mapframe&z=9"
+                  target="_blank"
+                  ><img src="img/Contacts/branches/icon_map.png" alt="" />ул.
+                  Французский бульвар 16ф, корпус 2</a
+                >
+                <a href="tel:+79806879898" class="branches__contact"
+                  ><img src="img/Contacts/branches/icon_phone.png" alt="" />+7
+                  (980) 687-98-98</a
+                >
+                <a
+                  class="branches__contact"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  ><img
+                    src="
+                                img/Contacts/branches/icon_inst.png"
+                    alt=""
+                  />@vibearbat.ru</a
+                >
+              </div>
+            </div>
+
+            <div class="branches__item">
+              <div class="branches__item-img">
+                <img
+                  class="border-main"
+                  src="img/Contacts/branches/photo_3.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="branches__item-content">
+                <div class="branches__titleMain">
+                  Vibe Covorking на Новом Арбате: светлые тона и деликатные
+                  акценты
+                </div>
+                <div class="branches__contact-M">
+                  <img src="img/Contacts/branches/icon_M.png" alt="" />станция
+                  метро Замоскворецкая
+                </div>
+                <a
+                  class="branches__contact"
+                  href="https://yandex.ru/maps/?from=mapframe&ll=37.175265%2C55.917344&mode=usermaps&source=mapframe&um=constructor%3A69d1a6ecf8c2704cce9866a5111cecf7e25fd3f4671210eebd6909f1d96b24c1&utm_source=mapframe&z=9"
+                  target="_blank"
+                  ><img src="img/Contacts/branches/icon_map.png" alt="" />ул.
+                  Французский бульвар 16ф, корпус 2</a
+                >
+                <a href="tel:+79806879898" class="branches__contact"
+                  ><img src="img/Contacts/branches/icon_phone.png" alt="" />+7
+                  (980) 687-98-98</a
+                >
+                <a
+                  class="branches__contact"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  ><img
+                    src="
+                                img/Contacts/branches/icon_inst.png"
+                    alt=""
+                  />@vibearbat.ru</a
+                >
+              </div>
+            </div>
+
+            <div class="branches__item">
+              <div class="branches__item-img">
+                <img
+                  class="border-main"
+                  src="img/Contacts/branches/photo_4.png"
+                  alt=""
+                />
+              </div>
+
+              <div class="branches__item-content">
+                <div class="branches__titleMain">
+                  Vibe Covorking на Новом Арбате: светлые тона и деликатные
+                  акценты
+                </div>
+                <div class="branches__contact-M">
+                  <img src="img/Contacts/branches/icon_M.png" alt="" />станция
+                  метро Замоскворецкая
+                </div>
+                <a
+                  class="branches__contact"
+                  href="https://yandex.ru/maps/?from=mapframe&ll=37.175265%2C55.917344&mode=usermaps&source=mapframe&um=constructor%3A69d1a6ecf8c2704cce9866a5111cecf7e25fd3f4671210eebd6909f1d96b24c1&utm_source=mapframe&z=9"
+                  target="_blank"
+                  ><img src="img/Contacts/branches/icon_map.png" alt="" />ул.
+                  Французский бульвар 16ф, корпус 2</a
+                >
+                <a href="tel:+79806879898" class="branches__contact"
+                  ><img src="img/Contacts/branches/icon_phone.png" alt="" />+7
+                  (980) 687-98-98</a
+                >
+                <a
+                  class="branches__contact"
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  ><img
+                    src="
+                                img/Contacts/branches/icon_inst.png"
+                    alt=""
+                  />@vibearbat.ru</a
+                >
+              </div>
+            </div>
+
+            <div class="branches__expand">
+              <a href="" class="branches__expand-link">показать еще</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="feedback">
+          <div class="feedback__bg">
+            <div class="feedback__bg-mask">
+              <div class="feedback__container">
+                <img
+                  class="feedback__img"
+                  src="img\Vacancies.img\Feedback\green.png"
+                  alt=""
+                />
+
+                <div class="feedback__titleBig">
+                  РАЗДЕЛ<span class="beigeText"> ДЛЯ СМИ</span>
+                </div>
+                <div class="feedback__text">
+                  Если вы не нашли подходящей вакансии, пишите нам. Рассмотрим
+                  специалиста на любую позицию. Если вы чувствуете, что можете
+                  помочь усилить наш бренд, и готовы делать это, напишите прямо
+                  сейчас.
+                </div>
+
+                <form action="" method="" class="feedback__form">
+                  <div class="feedback__form-contact">
+                    <div class="feedback__form-icon">
+                      <img
+                        src="img/Vacancies.img/Feedback/Shape.png"
+                        alt="иконка"
+                      />
+                    </div>
+                    <input
+                      type="text"
+                      name="number"
+                      placeholder="+7 (___) ___ - __ -__"
+                      pattern="\+?[0-9\s\-\(\)]+"
+                      class="feedback__inpyt"
+                    />
+                  </div>
+
+                  <div class="feedback__form-contact">
+                    <div class="feedback__form-icon">
+                      <img src="img/formIcon/email.png" alt="иконка" />
+                    </div>
+                    <input
+                      type="email"
+                      name="email"
+                      placeholder="E-mail"
+                      pattern="[a-z]{1,15}"
+                      class="feedback__inpyt"
+                    />
+                  </div>
+                  <div class="feedback__form__btn main_btn">
+                    <input
+                      type="submit"
+                      class="feedback__form__sending"
+                      value="НАПИСАТЬ НАМ"
+                    /><img
+                      src="img/Vacancies.img/header/icon.png"
+                      alt="указатель"
+                      class="main_btnicon"
+                    />
+                  </div>
+                </form>
+
+                <div class="feedback__PrivacyPolicy">
+                  <label
+                    class="feedback__PrivacyPolicy-item"
+                    for="input__PrivacyPolicy"
+                  >
+                    <input
+                      class="checkbox"
+                      type="checkbox"
+                      id="input__PrivacyPolicy"
+                    />
+
+                    <div>
+                      <span class="feedback__PrivacyPolicy-chekbox"></span>
+                    </div>
+                    <div>
+                      Я согласна на обработку моих персональных данных в
+                      соответствии<a
+                        href=""
+                        class="beigeText feedback__PrivacyPolicy-link"
+                      >
+                        &nbsp; с условиями</a
+                      >
+                    </div>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__content">
+            <div class="footer__item">
+              <img
+                src="img/footer/logo.png"
+                alt="логотип"
+                class="footer__logo"
+              />
+
+              <div class="footer__contacts">
+                <a href="https://www.instagram.com/" target="_blank"
+                  ><img
+                    src="img/footer/insta__icon.png"
+                    alt="иконка инстаграмма"
+                    class="footer__icon"
+                /></a>
+                <a href="https://web.whatsapp.com/" target="_blank"
+                  ><img
+                    src="img/footer/whats__icon.png"
+                    alt="иконка ватсапа"
+                    class="footer__icon"
+                /></a>
+
+                <div class="footer__telephone">
+                  <a href="tel:+79806879898">
+                    <div class="footer__telephone-number">
+                      +7 (980) 687-98-98
+                    </div>
+                    <div class="footer__telephone-call">
+                      <img
+                        class="footer__telephone-call-icon"
+                        src="img\footer\phone.png"
+                        alt="иконка телефона"
+                      />Звонок бесплатный
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer__navigation">
+              <ol>
+                <li class="footer__link">
+                  <a class="footer__link" href="">О НАС</a>
+                </li>
+                <li class="footer__link">
+                  <a class="footer__link" href="">ВАКАНСИИ</a>
+                </li>
+                <li class="footer__link">
+                  <a class="footer__link" href="">ЗАБРОНИРОВАТЬ</a>
+                </li>
+                <li class="footer__link">
+                  <a class="footer__link" href="">КОНТАКТЫ</a>
+                </li>
+              </ol>
+            </div>
+
+            <div class="footer__navigation">
+              <ol>
+                <li class="footer__link">
+                  <a class="footer__link" href="">СТАТЬИ</a>
+                </li>
+                <li class="footer__link">
+                  <a class="footer__link" href="">ФРАНШИЗА</a>
+                </li>
+                <li class="footer__link">
+                  <a class="footer__link" href="">ЦЕНЫ</a>
+                </li>
+                <li class="footer__link">
+                  <a class="footer__link" href="">ПРАВОВАЯ ИНФОРМАЦИЯ </a>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+      <div class="footer__privacyPolicy">
+        <div class="footer__privacyPolicy-text">
+          <a class="footer__privacyPolicy-text" href=""
+            >Политика конфидециальности</a
+          >
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

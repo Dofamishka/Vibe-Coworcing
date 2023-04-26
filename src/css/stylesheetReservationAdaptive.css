@@ -126,4 +126,1195 @@
     left: 77%;
     top: 49%;
   }
+
+  /*-----------------Article-----------------*/
+  .article {
+    margin-bottom: 130px;
+  }
+
+  .article__titleBig {
+    max-width: 730px;
+    margin: 0 auto 45px auto;
+  }
+
+  .article__btn {
+    height: 65px;
+    width: 65px;
+  }
+
+  .articleBtn__prev::before {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+  }
+
+  .articleBtn__next::before {
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 13px;
+  }
+
+  .article__img {
+    margin-bottom: 70px;
+  }
+
+  .article__img-top {
+    width: 600px;
+    height: 395px;
+  }
+
+  .article__img-bottom {
+    min-width: 580px;
+    height: 390px;
+    top: 7%;
+  }
+
+  .article__content {
+    margin: 0 auto;
+    min-width: 700px;
+    max-width: 880px;
+  }
+
+  .article__titleSubordinate {
+    max-width: 380px;
+    margin-bottom: 30px;
+  }
+
+  .firstColumn {
+    max-width: 390px;
+  }
+
+  .secondColumn {
+    max-width: 390px;
+  }
+
+  /*-----------------vibecovorcing-----------------*/
+  .vibecovorcing {
+    margin-bottom: 115px;
+  }
+
+  .vibecovorcing__titleMain {
+    margin-bottom: 80px;
+  }
+
+  .vibecovorcing__photo {
+    margin-bottom: 60px;
+    height: 235px;
+  }
+
+  .vibecovorcing__photo-img {
+    max-width: 210px;
+    max-height: 225px;
+  }
+
+  .vibecovorcing__btn {
+    margin-bottom: 130px;
+  }
+
+  .main_btn {
+    width: 270px;
+    height: 85px;
+    font-size: 14px;
+  }
+
+  .vibvecovorcing__content__titleMain {
+    max-width: 470px;
+  }
+
+  .vibecovorcing__titleText {
+    max-width: 390px;
+  }
+
+  /*-----------------vacanciesVideo-----------------*/
+  .vacanciesVideo {
+    margin: 0 auto 135px auto;
+    height: 545px;
+    max-width: 1295px;
+  }
+
+  .vacanciesVideo__container {
+    position: relative;
+    height: 546px;
+  }
+
+  .vacanciesVideo__girl {
+    position: absolute;
+    top: 6.5%;
+    max-height: 525px;
+    max-width: 620px;
+  }
+
+  .vacanciesVideo__textNote {
+    max-width: 100px;
+    top: 24%;
+    left: 34%;
+  }
+
+  .vacanciesVideo__note__arc {
+    transform: rotate(-220deg);
+    width: 130px;
+    height: 100px;
+    top: 23%;
+    left: 37%;
+  }
+
+  .vacanciesVideo__titleBig {
+    margin: 0 70px 25px 0;
+    max-width: 360px;
+  }
+
+  .vacanciesVideo__textMain {
+    max-width: 280px;
+  }
+
+  .vacanciesVideo__play {
+    top: 4%;
+    left: 25%;
+  }
+
+  .vacanciesVideo__play-circleOne {
+    height: 500px;
+    width: 500px;
+  }
+
+  .vacanciesVideo__play-circleSecond {
+    height: 345px;
+    width: 345px;
+  }
+
+  .vacanciesVideo__play-circle-btn {
+    position: relative;
+    width: 100px;
+    height: 100px;
+  }
+
+  .vacanciesVideo__play-circleTriangle {
+    max-width: 17px;
+    max-height: 17px;
+  }
+
+  /*-----------------payment-----------------*/
+  .payment {
+    margin-bottom: 240px;
+  }
+
+  .payment__titleMain {
+    text-align: center;
+    margin: 0 auto 70px auto;
+    max-width: 730px;
+  }
+
+  .payment__photo {
+    height: 415px;
+    max-width: 945px;
+  }
+
+  .payment__photo-img {
+    margin-bottom: 72px;
+    max-width: 445px;
+    max-height: 320px;
+  }
+
+  .payment__content {
+    max-width: 680px;
+  }
+
+  .payment__content-text {
+    margin-bottom: 60px;
+  }
+
+  .payment__list {
+    margin-bottom: 60px;
+  }
+
+  .payment__list-element {
+    margin-bottom: 35px;
+    padding-left: 35px;
+  }
+
+  .payment__list-element__numberOl {
+    margin-right: 20px;
+  }
+
+  /*-----------------jobOffers-----------------*/
+  .jobOffer {
+    margin-bottom: 210px;
+  }
+
+  .jobOffer__preamble {
+    margin-bottom: 80px;
+  }
+
+  .jobOffer__flowers {
+    position: absolute;
+    top: -75px;
+    right: 190px;
+    max-width: 200px;
+  }
+
+  .jobOffer__preamble1 {
+    margin-right: 75px;
+    max-width: 625px;
+  }
+
+  .jobOffer__titleBig {
+    margin-bottom: 55px;
+  }
+
+  .jobOffer__text {
+    max-width: 540px;
+  }
+
+  .jobOffer__textBold {
+    max-width: 235px;
+    margin-bottom: 60px;
+    padding-left: 15px;
+
+    background: url(../img/marker.png) no-repeat 0 3px;
+  }
+
+  .jobOffer__note {
+    min-width: 103px;
+  }
+
+  .jobOffer__textNote {
+    max-width: 100px;
+    margin: 0 15px 90px 0;
+  }
+
+  .jobOffer__note__arc {
+    height: 110px;
+    width: 120px;
+    top: 150px;
+    left: 45px;
+  }
+
+  .jobOffer__img img {
+    max-width: 445px;
+    max-height: 320px;
+  }
+
+  .jobOffer__content-text {
+    max-width: 220px;
+    font-size: 14px;
+  }
+
+  .jobOffer__titleSubordinate {
+    margin-bottom: 20px;
+    min-width: 245px;
+  }
+
+  /*-----------------Statistics-----------------*/
+  .statistics {
+    margin-bottom: 190px;
+  }
+
+  .statistics__block1 {
+    min-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .statistics__block1-content {
+    max-width: 630px;
+  }
+
+  .statistics__titleMain {
+    margin-bottom: 45px;
+  }
+
+  .statistics__block1-text {
+    max-width: 540px;
+  }
+
+  .statistics__block1-text:nth-child(2) {
+    margin-bottom: 55px;
+  }
+
+  .statistics__block1-img {
+    max-width: 300px;
+  }
+
+  .statistics__block2 {
+    min-width: 955px;
+  }
+
+  .statistics__block2-textImg__titleSubordinate {
+    font-size: 25px;
+    line-height: 30px;
+    max-width: 230px;
+    top: 30px;
+    left: 45px;
+  }
+
+  .statistics__block2-img img {
+    max-width: 550px;
+  }
+
+  .statistics__block2-text {
+    max-width: 305px;
+  }
+
+  /*-----------------Cards-----------------*/
+  .cards {
+    margin-bottom: 165px;
+  }
+
+  .cards__titleMain {
+    max-width: 455px;
+    margin: 0 auto 75px auto;
+  }
+
+  .cards__content {
+    height: 480px;
+  }
+
+  .card__img {
+    margin-bottom: 30px;
+    max-width: 305px;
+    max-height: 280px;
+  }
+
+  .card__text {
+    max-width: 235px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .card__titleSubordinate {
+    margin-bottom: 13px;
+    font-size: 20px;
+  }
+
+  /*-----------------excellence-----------------*/
+  .excellence {
+    margin-bottom: 180px;
+  }
+
+  .excellence__preamble {
+    margin: 0 auto 65px auto;
+    max-width: 880px;
+  }
+
+  .excellence__preamble1 {
+    margin-right: 95px;
+    min-width: 240px;
+  }
+
+  .excellence__textBold {
+    background: url(../img/marker.png) no-repeat 0 3px;
+  }
+
+  .excellence__titleBig {
+    margin-bottom: 45px;
+  }
+
+  .excellence__text {
+    max-width: 540px;
+  }
+
+  .excellence__preamble2 {
+    max-width: 700px;
+  }
+
+  .excellence__content {
+    margin: 0 auto 160px auto;
+    max-width: 800px;
+  }
+
+  .excellence__flowers {
+    max-width: 200px;
+  }
+
+  .excellence__img img {
+    max-width: 445px;
+    max-height: 320px;
+  }
+
+  .excellence__content-text {
+    max-width: 245px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .excellence__titleSubordinate {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .excellence__mainText {
+    max-width: 590px;
+  }
+
+  .excellence__titleMain {
+    margin-bottom: 50px;
+  }
+
+  .excellence__main-text {
+    max-width: 540px;
+  }
+
+  .excellence__mainMessage {
+    min-width: 280px;
+    height: 105px;
+    border-radius: 30px;
+  }
+
+  .excellence__mainMessage::before {
+    width: 60px;
+    height: 60px;
+    top: 85px;
+    left: -50px;
+  }
+
+  .excellence__mainMessage-text {
+    max-width: 200px;
+    line-height: 20px;
+  }
+
+  /*-----------------payRise-----------------*/
+  .payRise {
+    margin-bottom: 190px;
+  }
+
+  .payRise__titleMain {
+    margin: 0 auto 90px auto;
+    max-width: 580px;
+  }
+
+  .payRise__icons-item {
+    max-width: 120px;
+  }
+
+  .payRise__icons-img {
+    margin-bottom: 13px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .payRise__icons__textBold {
+    color: #ce946b;
+    line-height: 14px;
+  }
+
+  /*-----------------Feedback-----------------*/
+  .feedback {
+    height: 720px;
+    max-width: 1365px;
+  }
+
+  .feedback__bg {
+    height: 1000px;
+    width: 5000px;
+  }
+
+  .feedback__img {
+    bottom: 100px;
+  }
+
+  .feedback__blockContact {
+    max-width: 595px;
+  }
+
+  .feedback__form-contact {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 996px) {
+  /*-----------------Header-----------------*/
+  .intro__container {
+    width: 100%;
+  }
+
+  .intro__titleBig {
+    max-width: 65rem;
+    margin-bottom: 5%;
+  }
+
+  .btn__intro {
+    margin: 0 auto 8% auto;
+    max-width: 7rem;
+    max-height: 7rem;
+  }
+
+  /*-----------------Description-----------------*/
+  .description__container {
+    margin-bottom: 15rem;
+  }
+
+  .description__titleMain {
+    max-width: 65rem;
+    margin: 0 auto 3.5rem auto;
+  }
+
+  .description__titleText {
+    max-width: 56rem;
+    margin: 0 auto 8.5rem auto;
+  }
+
+  .description1__content {
+    margin-bottom: 5rem;
+    max-width: 80rem;
+  }
+
+  .description1__photo {
+    width: 65%;
+    min-height: 38rem;
+  }
+
+  .description1__photo-img1 {
+    max-width: 37.5rem;
+    max-height: 27rem;
+  }
+
+  .description1__photo-img1 img {
+    max-width: 37.5rem;
+    max-height: 27rem;
+  }
+
+  .description1__photo-img2 {
+    max-width: 23.5rem;
+    max-height: 17rem;
+    left: 40%;
+    bottom: 0;
+    right: 0;
+    top: 40%;
+  }
+
+  .description1__photo-img2 img {
+    max-width: 23.5rem;
+    max-height: 17rem;
+  }
+
+  .descriptio1__titleSubordinate {
+    max-width: 29rem;
+    margin-bottom: 2rem;
+  }
+
+  .description1__textMain {
+    max-width: 28rem;
+    margin-bottom: 3.5rem;
+    line-height: 2rem;
+  }
+
+  .description__btn1 {
+    font-size: 1.2rem;
+    width: 24rem;
+    height: 7.5rem;
+  }
+
+  .description2__content {
+    max-width: 73rem;
+  }
+
+  .description__textNote {
+    position: absolute;
+    display: inline-block;
+    min-width: 0;
+    max-width: 10.5rem;
+    top: -30%;
+    right: -20%;
+  }
+
+  .description__note__arc {
+    height: 8rem;
+    width: 10rem;
+    left: 60.5rem;
+    top: -9rem;
+  }
+
+  .description2__item {
+    width: 60%;
+  }
+
+  .description2__titleSubordinate {
+    max-width: 29rem;
+    margin-bottom: 2rem;
+  }
+
+  .description2__textMain {
+    max-width: 28rem;
+    margin-bottom: 3.5rem;
+    line-height: 2rem;
+  }
+
+  .description__btn2 {
+    font-size: 1.2rem;
+    width: 24rem;
+    height: 7.5rem;
+  }
+
+  .description2__photo-img1 {
+    max-width: 37.5rem;
+    min-height: 27rem;
+  }
+
+  .description2__photo-img1 img {
+    max-width: 37.5rem;
+    min-height: 27rem;
+  }
+
+  .description2__photo-img2 {
+    max-width: 23rem;
+    max-height: 18.2rem;
+    left: 75%;
+    bottom: 0;
+    right: 0;
+    top: 49%;
+  }
+
+  /*-----------------Article-----------------*/
+  .article {
+    margin-bottom: 10rem;
+  }
+
+  .article__titleBig {
+    max-width: 65rem;
+    margin: 0 auto 5rem auto;
+  }
+
+  .article__btn {
+    height: 5.5rem;
+    width: 5.5rem;
+  }
+
+  .articleBtn__prev {
+    border: 0.01rem solid #d1d1d3;
+  }
+
+  .articleBtn__prev::before {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-top: 0.01rem solid #d1d1d3;
+    border-left: 0.01rem solid #d1d1d3;
+    top: 0;
+    left: 10%;
+    right: 0;
+    bottom: 0;
+  }
+
+  .articleBtn__next {
+    border: 0.01rem solid #e0bca1;
+    position: relative;
+  }
+
+  .articleBtn__next::before {
+    width: 1.2rem;
+    height: 1.2rem;
+    border-top: 0.01rem solid #e0bca1;
+    border-right: 0.01rem solid #e0bca1;
+    top: 0;
+    left: 0;
+    right: 10%;
+    bottom: 0;
+  }
+
+  .article__img {
+    margin-bottom: 5rem;
+  }
+
+  .article__img-top {
+    width: 56rem;
+    height: 37rem;
+  }
+
+  .article__img-bottom {
+    min-width: 54rem;
+    height: 36rem;
+    top: 7%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  .article__content {
+    min-width: 0;
+    max-width: 80rem;
+  }
+
+  .article__titleSubordinate {
+    max-width: 35rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .firstColumn {
+    max-width: 35rem;
+  }
+
+  .secondColumn {
+    max-width: 35rem;
+  }
+
+  /*-----------------vibecovorcing-----------------*/
+  .vibecovorcing {
+    margin-bottom: 10rem;
+  }
+
+  .vibecovorcing__titleMain {
+    margin-bottom: 4.5rem;
+  }
+
+  .vibecovorcing__photo {
+    margin-bottom: 5rem;
+    height: 21.5rem;
+  }
+
+  .vibecovorcing__photo-img {
+    max-width: 20rem;
+    max-height: 19rem;
+  }
+
+  .vibecovorcing__btn {
+    margin-bottom: 10rem;
+  }
+
+  .main_btn {
+    width: 24rem;
+    height: 7.5rem;
+    font-size: 1.2rem;
+  }
+
+  .vibvecovorcing__content__titleMain {
+    max-width: 36.5rem;
+  }
+
+  .vibecovorcing__titleText {
+    max-width: 42.5rem;
+  }
+
+  /*-----------------vacanciesVideo-----------------*/
+  .vacanciesVideo {
+    margin: 0 auto 12rem auto;
+    height: 44rem;
+    max-width: 96rem;
+  }
+
+  .vacanciesVideo__container {
+    height: 44rem;
+    max-width: 80.5rem;
+  }
+
+  .vacanciesVideo__girl {
+    top: 16%;
+    left: 51%;
+    max-height: 50rem;
+    max-width: 45rem;
+    z-index: 3;
+  }
+
+  /* .vacanciesVideo__video {}
+
+.vacanciesVideo__video-YouTube {}
+
+ */
+  .vacanciesVideo__textNote {
+    max-width: 6.5rem;
+    top: 24%;
+    left: 35%;
+  }
+
+  .vacanciesVideo__note__arc {
+    width: 8rem;
+    height: 7rem;
+    top: 24%;
+    left: 39%;
+  }
+
+  .vacanciesVideo__titleBig {
+    margin: 0 6.5rem 2rem 0;
+    max-width: 32rem;
+  }
+
+  .vacanciesVideo__textMain {
+    max-width: 25rem;
+  }
+
+  .vacanciesVideo__play {
+    top: 5%;
+    left: 25%;
+  }
+
+  .vacanciesVideo__play-circleOne {
+    height: 40rem;
+    width: 40rem;
+    border-top: solid 0.01rem hsla(10, 31%, 63%, 0.082);
+    border-right: solid 0.01rem hsla(10, 31%, 63%, 0.034);
+    border-bottom: solid 0.01rem hsla(10, 31%, 63%, 0.144);
+    border-left: solid 0.01rem hsla(9, 38%, 82%, 0.027);
+  }
+
+  .vacanciesVideo__play-circleSecond {
+    height: 30rem;
+    width: 30rem;
+    border-top: solid 0.01rem hsla(23, 25%, 77%, 0.24);
+    border-right: solid 0.01rem hsla(9, 15%, 74%, 0.034);
+    border-bottom: solid 0.01rem hsla(26, 41%, 47%, 0.226);
+    border-left: solid 0.01rem hsla(9, 38%, 82%, 0.027);
+  }
+
+  .vacanciesVideo__play-circle-btn {
+    position: relative;
+    width: 9rem;
+    height: 9rem;
+  }
+
+  .vacanciesVideo__play-circleTriangle {
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+  }
+
+  /*-----------------payment-----------------*/
+  .payment {
+    margin-bottom: 20rem;
+  }
+
+  .payment__titleMain {
+    max-width: 65.5rem;
+    margin: 0 auto 5rem auto;
+  }
+
+  .payment__photo {
+    height: 40rem;
+    max-width: 88rem;
+  }
+
+  .payment__photo-img {
+    margin-bottom: 5.5rem;
+    max-height: 30.5rem;
+  }
+
+  .payment__content {
+    margin: 0 auto;
+    max-width: 67rem;
+  }
+
+  .payment__content-text {
+    margin-bottom: 5.5rem;
+  }
+
+  .payment__list {
+    margin-bottom: 5.5rem;
+  }
+
+  .payment__list-element {
+    margin-bottom: 3rem;
+    padding-left: 2.5rem;
+  }
+
+  .payment__list-element__numberOl {
+    margin-right: 1.5rem;
+  }
+
+  /*-----------------jobOffers-----------------*/
+  .jobOffer {
+    margin-bottom: 14.5rem;
+  }
+
+  .jobOffer__preamble {
+    margin-bottom: 7rem;
+  }
+
+  .jobOffer__flowers {
+    top: -6rem;
+    right: -15rem;
+    max-width: 15rem;
+    max-height: 15rem;
+  }
+
+  .jobOffer__preamble1 {
+    margin-right: 9rem;
+    max-width: 50.5rem;
+    position: relative;
+  }
+
+  .jobOffer__titleBig {
+    margin-bottom: 4rem;
+  }
+
+  .jobOffer__text {
+    max-width: 48.5rem;
+  }
+
+  .jobOffer__textBold {
+    max-width: 21rem;
+    margin-bottom: 3.5rem;
+    padding-left: 1.2rem;
+    background: url(../img/marker.png) no-repeat 0 0.4rem;
+    background-size: 1.1rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .jobOffer__note {
+    min-width: 0;
+    max-width: 12rem;
+  }
+
+  .jobOffer__textNote {
+    max-width: 9rem;
+    margin: 0 3.5rem 8rem 0;
+  }
+
+  .jobOffer__note__arc {
+    height: 7rem;
+    width: 9rem;
+    top: 17rem;
+    left: 5rem;
+  }
+
+  .jobOffer__img img {
+    max-width: 42rem;
+    max-height: 30rem;
+  }
+
+  .jobOffer__content-text {
+    max-width: 20.5rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .jobOffer__titleSubordinate {
+    margin-bottom: 1.5rem;
+    min-width: 21.5rem;
+  }
+
+  /*-----------------Statistics-----------------*/
+  .statistics {
+    margin-bottom: 10rem;
+  }
+
+  .statistics__block1 {
+    max-width: 85rem;
+    min-width: 0;
+    margin-bottom: 5rem;
+  }
+
+  .statistics__block1-content {
+    max-width: 56rem;
+  }
+
+  .statistics__titleMain {
+    margin-bottom: 3.5rem;
+  }
+
+  .statistics__block1-text {
+    max-width: 50rem;
+  }
+
+  .statistics__block1-text:nth-child(2) {
+    margin-bottom: 4.5rem;
+  }
+
+  .statistics__block1-img {
+    max-width: 20.6rem;
+  }
+
+  .statistics__block2 {
+    min-width: 0;
+    max-width: 80rem;
+  }
+
+  .statistics__block2-textImg__titleSubordinate {
+    font-size: 2.3rem;
+    line-height: 2.7rem;
+    max-width: 20rem;
+    top: 2rem;
+    left: 2.8rem;
+  }
+
+  .statistics__block2-img img {
+    max-width: 44rem;
+  }
+
+  .statistics__block2-text {
+    max-width: 26.5rem;
+  }
+
+  /*-----------------Cards-----------------*/
+  .cards {
+    margin-bottom: 12rem;
+  }
+
+  .cards__titleMain {
+    max-width: 40rem;
+    margin: 0 auto 5rem auto;
+  }
+
+  .cards__content {
+    height: 42rem;
+  }
+
+  .card__img {
+    margin-bottom: 2rem;
+    max-width: 27rem;
+    max-height: 25.5rem;
+  }
+
+  .card__text {
+    max-width: 19.5rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .card__titleSubordinate {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+
+  /*-----------------excellence-----------------*/
+  .excellence {
+    margin-bottom: 13rem;
+  }
+
+  .excellence__preamble {
+    margin: 0 auto 5em auto;
+  }
+
+  .excellence__preamble1 {
+    margin-right: 8rem;
+    min-width: 0;
+    max-width: 23rem;
+  }
+
+  .excellence__textBold {
+    max-width: 22rem;
+    padding-left: 1.2rem;
+
+    background: url(../img/marker.png) no-repeat 0 0.5rem;
+    background-size: 1.1rem;
+  }
+
+  .excellence__titleBig {
+    margin-bottom: 4rem;
+    max-width: 57.5rem;
+  }
+
+  .excellence__text {
+    max-width: 48.5rem;
+  }
+
+  .excellence__preamble2 {
+    max-width: 68rem;
+  }
+
+  .excellence__content {
+    margin: 0 auto 12rem auto;
+    max-width: 71rem;
+  }
+
+  .excellence__flowers {
+    top: 2rem;
+    left: -7rem;
+    max-width: 15rem;
+  }
+
+  .excellence__img img {
+    max-width: 42rem;
+    max-height: 35rem;
+  }
+
+  .excellence__content-text {
+    max-width: 20rem;
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+
+  .excellence__titleSubordinate {
+    margin-bottom: 2rem;
+    max-width: 25rem;
+    font-size: 2.2rem;
+  }
+
+  .excellence__mainText {
+    max-width: 51.5rem;
+  }
+
+  .excellence__titleMain {
+    margin-bottom: 3.5rem;
+  }
+
+  .excellence__main-text {
+    max-width: 57.5rem;
+  }
+
+  .excellence__mainMessage {
+    min-width: 0;
+    max-width: 25rem;
+    height: 9rem;
+    border-radius: 2rem;
+    min-width: 0;
+    padding: 1rem 2rem;
+  }
+
+  .excellence__mainMessage::before {
+    width: 5rem;
+    height: 5rem;
+    margin: -5rem 0 5rem 0;
+    box-shadow: 1.3rem 1.3rem 0 0 #edd5d0;
+    top: 8.5rem;
+    left: -4rem;
+    z-index: -1;
+  }
+
+  .excellence__mainMessage-text {
+    max-width: 21rem;
+    line-height: 1.9rem;
+  }
+
+  /*-----------------payRise-----------------*/
+  .payRise {
+    margin-bottom: 13rem;
+  }
+
+  .payRise__titleMain {
+    margin: 0 auto 6rem auto;
+    max-width: 50rem;
+  }
+
+  .payRise__icons-item {
+    max-width: 9.5rem;
+  }
+
+  .payRise__icons-img {
+    margin-bottom: 1.2rem;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .payRise__icons__textBold {
+    color: #ce946b;
+    line-height: 1.2rem;
+    font-size: 1.2rem;
+  }
+
+  /*-----------------Feedback-----------------*/
+  .feedback {
+    height: 62rem;
+    max-width: 99.5rem;
+  }
+
+  .feedback__bg {
+    height: 90rem;
+    width: 450rem;
+  }
+
+  .feedback__img {
+    bottom: 8.5rem;
+  }
+
+  .feedback__blockContact {
+    max-width: 53rem;
+  }
+
+  .feedback__form-contact {
+    margin-bottom: 1.5rem;
+  }
+
+  .feedback__form__btn {
+    width: 23rem;
+    height: 7rem;
+  }
 }

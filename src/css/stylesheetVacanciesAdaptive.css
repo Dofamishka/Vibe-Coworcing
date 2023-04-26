@@ -153,3 +153,167 @@
     max-width: 155px;
   }
 }
+
+@media (max-width: 996px) {
+  /*-----------------Header-----------------*/
+  .intro__container {
+    width: 100%;
+    min-width: 100%;
+    min-height: 48.8rem;
+  }
+
+  .intro__item-vacancies {
+    max-width: 90rem;
+    margin: 0 5rem;
+  }
+
+  .intro__content {
+    max-width: 38rem;
+    min-width: 0;
+  }
+
+  .intro__textMain {
+    margin-bottom: 8%;
+    line-height: 1.8rem;
+  }
+
+  .intro__btn {
+    width: 24rem;
+    height: 7rem;
+    font-size: 1.4rem;
+  }
+
+  .intro__note__arc {
+    height: 100px;
+    width: 120px;
+    transform: rotate(120deg);
+    top: 400px;
+    margin: 0 -21%;
+  }
+
+  .intro__textNote {
+    max-width: 8rem;
+    top: 43rem;
+    margin: 0;
+    left: 31.5rem;
+  }
+
+  .intro__note__arc {
+    height: 7rem;
+    width: 9rem;
+    left: 45rem;
+    top: 37rem;
+  }
+
+  /*-----------------Vacancies-----------------*/
+  .vacancies {
+    margin-bottom: 13rem;
+  }
+
+  .vacancies__btn {
+    margin-bottom: 10rem;
+  }
+
+  .vacancies__content {
+    margin-bottom: 6.5rem;
+  }
+
+  .vacancies__btn-button:first-child {
+    margin-right: 0.4rem;
+  }
+
+  .vacancies__btn-button {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    height: 5.5rem;
+    width: 23.5rem;
+  }
+
+  .vacancies__card {
+    padding: 4.4rem 0;
+    border-bottom: 0.1rem solid;
+  }
+
+  .vacancies__card:first-child {
+    padding: 0 0 4.4rem 0;
+  }
+
+  .vacancies__card-title {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    max-width: 42rem;
+  }
+
+  .vacancies__card__textBold {
+    width: 11rem;
+    line-height: 1.8rem;
+  }
+
+  .vacancies__card-btn {
+    height: 6rem;
+    width: 17.5rem;
+    font-size: 1rem;
+    line-height: 1.1rem;
+  }
+
+  .vacancies__expand-link {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+
+  /*-----------------Subscription-----------------*/
+  .subscription {
+    margin-bottom: 11rem;
+  }
+
+  .subscription__container {
+    height: 31.5rem;
+    max-width: 95.5rem;
+  }
+
+  .subscription__photo {
+    transform: translateY(-0.65rem);
+    max-width: 40.5rem;
+  }
+
+  .subscription__photo-img {
+    height: 100%;
+  }
+
+  .subscription__titleMain {
+    margin: 0 3rem 3.5rem 0;
+    max-width: 56rem;
+  }
+
+  .subscription__btn {
+    height: 7.5rem;
+    width: 29.5rem;
+    font-size: 1.4rem;
+  }
+
+  /*-----------------Worth-----------------*/
+  .worth {
+    margin-bottom: 12rem;
+  }
+
+  .worth__titleBig {
+    max-width: 65.5rem;
+    line-height: 4.3rem;
+    margin: 0 auto 6.5rem auto;
+  }
+
+  .worth__icon {
+    margin-bottom: 2.5rem;
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+
+  .worth__icon img {
+    max-width: 3rem;
+  }
+
+  .worth__card__textBold {
+    max-width: 14rem;
+    line-height: 2rem;
+  }
+}

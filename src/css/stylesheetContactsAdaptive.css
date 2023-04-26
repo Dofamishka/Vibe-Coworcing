@@ -1,0 +1,197 @@
+@media (max-width: 1360px) {
+  /*-----------------Header-----------------*/
+  .header {
+    margin-bottom: 90px;
+  }
+
+  /*-----------------communication-----------------*/
+  .communication {
+    margin-bottom: 145px;
+  }
+
+  .communication__titleBig {
+    margin: 0 auto 45px auto;
+  }
+
+  .communication__data {
+    margin: 0 auto 85px auto;
+    max-width: 635px;
+  }
+
+  .communicationData__titleText {
+    margin-bottom: 7px;
+  }
+
+  .communicationData__titleText img {
+    margin-right: 10px;
+    max-height: 15px;
+    max-width: 15px;
+  }
+
+  .communicationData__titleSubordinate {
+    font-size: 28px;
+  }
+
+  .communication__map {
+    max-width: 1290px;
+  }
+
+  /*-----------------branches-----------------*/
+  .branches {
+    margin-bottom: 190px;
+  }
+
+  .branches__titleBig {
+    margin: 0 auto 95px auto;
+    max-width: 305px;
+  }
+
+  .branches__item {
+    margin: 0 auto 135px auto;
+    max-width: 945px;
+  }
+
+  .branches__item-img img {
+    max-width: 415px;
+    max-height: 300px;
+  }
+
+  .branches__item-content {
+    max-width: 460px;
+  }
+
+  .branches__titleMain {
+    margin-bottom: 25px;
+    font-size: 27px;
+    line-height: 29px;
+  }
+
+  .branches__contact {
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: 270px;
+  }
+
+  .branches__contact-M {
+    margin-bottom: 8px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .branches__contact img {
+    max-width: 35px;
+    max-height: 35px;
+    margin-right: 10px;
+  }
+
+  .branches__contact-M img {
+    max-width: 35px;
+    max-height: 35px;
+    margin-right: 10px;
+  }
+
+  .branches__expand-link {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 996px) {
+  /*-----------------Header-----------------*/
+  .header {
+    margin-bottom: 10rem;
+  }
+
+  /*-----------------communication-----------------*/
+  .communication {
+    margin-bottom: 185px;
+  }
+
+  .communication__titleBig {
+    margin: 0 auto 5.5rem auto;
+  }
+
+  .communication__data {
+    margin: 0 auto 7rem;
+    max-width: 57.5rem;
+  }
+
+  .communicationData__titleText {
+    margin-bottom: 0.8rem;
+  }
+
+  .communicationData__titleText img {
+    margin-right: 0.8rem;
+    max-height: 1.5rem;
+    max-width: 1.5rem;
+  }
+
+  .communicationData__titleSubordinate {
+    font-size: 2.5rem;
+  }
+
+  .communication__map {
+    max-width: 96rem;
+    margin-bottom: 8rem;
+  }
+
+  /*-----------------branches-----------------*/
+  .branches {
+    margin-bottom: 13.5rem;
+  }
+
+  .branches__titleBig {
+    margin: 0 auto 7.5rem auto;
+    max-width: 28.5rem;
+  }
+
+  .branches__item {
+    margin: 0 auto 13rem auto;
+    max-width: 85.5rem;
+  }
+
+  .branches__item-img img {
+    max-width: 38.5rem;
+    max-height: 28rem;
+  }
+
+  .branches__item-content {
+    max-width: 41rem;
+  }
+
+  .branches__titleMain {
+    margin-bottom: 3.5rem;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+  }
+
+  .branches__contact {
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    max-width: 26rem;
+  }
+
+  .branches__contact-M {
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    max-width: 26rem;
+  }
+
+  .branches__contact img {
+    max-width: 3rem;
+    max-height: 3rem;
+    margin-right: 1rem;
+  }
+
+  .branches__contact-M img {
+    max-width: 3rem;
+    max-height: 3rem;
+    margin-right: 1rem;
+  }
+
+  .branches__expand-link {
+    font-size: 1rem;
+  }
+}
