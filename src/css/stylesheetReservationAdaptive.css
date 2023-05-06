@@ -1170,7 +1170,7 @@
   }
 
   .excellence__preamble {
-    margin: 0 auto 5em auto;
+    margin: 0 auto 5rem auto;
   }
 
   .excellence__preamble1 {
@@ -1316,5 +1316,737 @@
   .feedback__form__btn {
     width: 23rem;
     height: 7rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .intro__container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .intro__titleBig {
+    max-width: 45rem;
+    margin-bottom: 5%;
+  }
+
+  .btn__intro {
+    margin: 0 auto 0 auto;
+    max-width: 9rem;
+    max-height: 9rem;
+  }
+
+  /*-----------------Description-----------------*/
+  .description__container {
+    margin-bottom: 15rem;
+  }
+
+  .description__titleMain {
+    max-width: 40rem;
+    margin: 0 auto 3.5rem auto;
+  }
+
+  .description__titleText {
+    max-width: 40rem;
+    margin: 0 auto 8.5rem auto;
+  }
+
+  .description1__content {
+    margin-bottom: 12rem;
+    max-width: 80rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .description1__photo {
+    width: 40rem;
+    min-height: 38rem;
+  }
+
+  .description1__photo-img1 {
+    max-width: 37.5rem;
+    max-height: 27rem;
+  }
+
+  .description1__photo-img1 img {
+    max-width: 37.5rem;
+    max-height: 27rem;
+  }
+
+  .description1__photo-img2 {
+    max-width: 23.5rem;
+    max-height: 17rem;
+    left: 40%;
+    bottom: 0;
+    right: 0;
+    top: 40%;
+  }
+
+  .description1__photo-img2 img {
+    max-width: 23.5rem;
+    max-height: 17rem;
+  }
+
+  .description1__item {
+    width: 30rem;
+  }
+  .descriptio1__titleSubordinate {
+    max-width: 40rem;
+    margin-bottom: 2rem;
+  }
+
+  .description1__textMain {
+    max-width: 100%;
+    margin-bottom: 3.5rem;
+    line-height: 2rem;
+  }
+
+  .description__btn1 {
+    font-size: 1.6rem;
+    width: 28rem;
+    height: 7.5rem;
+    margin: 0 auto;
+  }
+
+  .description2__content {
+    max-width: 50rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .description__textNote {
+    display: none;
+  }
+
+  .description2__item {
+    width: 30rem;
+  }
+
+  .description2__titleSubordinate {
+    max-width: 29rem;
+    margin-bottom: 2rem;
+  }
+
+  .description2__textMain {
+    max-width: 28rem;
+    margin-bottom: 3.5rem;
+    line-height: 2rem;
+  }
+
+  .description__btn2 {
+    font-size: 1.6rem;
+    width: 28rem;
+    height: 7.5rem;
+    margin: 0 auto;
+  }
+
+  .description2__photo {
+    width: 37.5rem;
+    order: -1;
+  }
+
+  .description2__photo-img1 {
+    max-width: 37.5rem;
+    min-height: 27rem;
+    transform: rotate(0deg);
+    margin-bottom: 5rem;
+  }
+
+  .description2__photo-img1 img {
+    max-width: 37.5rem;
+    min-height: 27rem;
+  }
+
+  .description2__photo-img2 {
+    display: none;
+  }
+
+  /*-----------------Article-----------------*/
+  .article {
+    margin-bottom: 10rem;
+  }
+
+  .article__titleBig {
+    max-width: 40rem;
+    margin: 0 auto 5rem auto;
+  }
+
+  .article__btn {
+    display: none;
+  }
+
+  .article__img {
+    margin-bottom: 5rem;
+  }
+
+  .article__img-top {
+    width: 50rem;
+    height: 35rem;
+    margin-bottom: 4rem;
+  }
+
+  .article__img-bottom {
+    min-width: 48rem;
+    height: 34rem;
+  }
+
+  .article__img .main__indicators {
+    margin: 0 auto;
+  }
+
+  .article__content {
+    min-width: 0;
+    max-width: 80rem;
+  }
+
+  .article__titleSubordinate {
+    max-width: 35rem;
+    text-align: center;
+    margin: 0 auto 2.5rem auto;
+  }
+
+  .firstColumn {
+    max-width: 35rem;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .secondColumn {
+    display: none;
+  }
+
+  /*-----------------vibecovorcing-----------------*/
+  .vibecovorcing {
+    margin-bottom: 10rem;
+  }
+
+  .vibecovorcing__titleMain {
+    margin-bottom: 4.5rem;
+  }
+
+  .vibecovorcing__photo {
+    margin-bottom: 5rem;
+    height: 25rem;
+  }
+
+  .vibecovorcing__photo-img {
+    max-width: 23rem;
+    max-height: 22rem;
+  }
+
+  .vibecovorcing__photo-img:nth-child(n + 3) {
+    display: none;
+  }
+
+  .vibecovorcing__btn {
+    margin-bottom: 10rem;
+  }
+
+  .main_btn {
+    width: 30rem;
+    height: 9rem;
+    font-size: 1.4rem;
+  }
+
+  .vibecovorcing__content {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 33rem;
+    margin: 0 auto;
+  }
+
+  .vibvecovorcing__content__titleMain {
+    max-width: 33rem;
+    margin-bottom: 3rem;
+  }
+
+  .vibecovorcing__titleText {
+    max-width: 33rem;
+  }
+
+  /*-----------------vacanciesVideo-----------------*/
+  .vacanciesVideo {
+    margin: 0 auto 12rem auto;
+    height: 50rem;
+    max-width: 50rem;
+  }
+
+  .vacanciesVideo__container {
+    height: 50rem;
+    max-width: 50rem;
+    align-items: flex-start;
+    padding: 4rem 0 0 5rem;
+  }
+
+  .vacanciesVideo__girl {
+    top: 42.5%;
+    left: 2%;
+    max-height: 50rem;
+    max-width: 35rem;
+    z-index: 3;
+  }
+
+  /* .vacanciesVideo__video {}
+
+.vacanciesVideo__video-YouTube {}
+
+ */
+
+  .vacanciesVideo__titleBig {
+    margin: 0;
+    max-width: 32rem;
+  }
+
+  .vacanciesVideo__textMain {
+    display: none;
+  }
+
+  .vacanciesVideo__play {
+    top: 8%;
+    left: 40%;
+  }
+
+  .vacanciesVideo__play-circleOne {
+    height: 30rem;
+    width: 30rem;
+    border-top: solid 0.01rem hsla(10, 31%, 63%, 0.082);
+    border-right: solid 0.01rem hsla(10, 31%, 63%, 0.034);
+    border-bottom: solid 0.01rem hsla(10, 31%, 63%, 0.144);
+    border-left: solid 0.01rem hsla(9, 38%, 82%, 0.027);
+  }
+
+  .vacanciesVideo__play-circleSecond {
+    height: 20rem;
+    width: 20rem;
+    border-top: solid 0.01rem hsla(23, 25%, 77%, 0.24);
+    border-right: solid 0.01rem hsla(9, 15%, 74%, 0.034);
+    border-bottom: solid 0.01rem hsla(26, 41%, 47%, 0.226);
+    border-left: solid 0.01rem hsla(9, 38%, 82%, 0.027);
+  }
+
+  .vacanciesVideo__play-circle-btn {
+    position: relative;
+    width: 9rem;
+    height: 9rem;
+  }
+
+  .vacanciesVideo__play-circleTriangle {
+    max-width: 3rem;
+    max-height: 3rem;
+  }
+
+  /*-----------------payment-----------------*/
+  .payment {
+    margin-bottom: 20rem;
+  }
+
+  .payment__titleMain {
+    max-width: 40rem;
+    margin: 0 auto 5rem auto;
+  }
+
+  .payment__photo {
+    height: 100%;
+    max-width: 88rem;
+    justify-content: center;
+  }
+
+  .payment__photo-img {
+    margin-bottom: 5.5rem;
+    max-height: 30.5rem;
+  }
+
+  .payment__photo-img:nth-child(2) {
+    display: none;
+  }
+
+  .payment__content {
+    margin: 0 auto;
+    max-width: 40rem;
+  }
+
+  .payment__content-text {
+    margin-bottom: 5.5rem;
+  }
+
+  .payment__list {
+    margin-bottom: 5.5rem;
+  }
+
+  .payment__list-element {
+    margin-bottom: 3rem;
+    padding-left: 2.5rem;
+  }
+
+  .payment__list-element__numberOl {
+    margin-right: 1.5rem;
+  }
+
+  /*-----------------jobOffer-----------------*/
+  .jobOffer {
+    margin-bottom: 14.5rem;
+  }
+
+  .jobOffer__preamble {
+    margin-bottom: 13rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .jobOffer__flowers {
+    display: none;
+  }
+
+  .jobOffer__preamble1 {
+    margin-right: 0;
+    max-width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .jobOffer__titleBig {
+    text-align: center;
+  }
+
+  .jobOffer__text {
+    max-width: 40rem;
+    margin: 0 auto 3rem auto;
+    text-align: center;
+  }
+
+  .jobOffer__textBold {
+    max-width: 38rem;
+    margin-bottom: 3.5rem;
+    padding-left: 1.2rem;
+    background: url(../img/marker.png) no-repeat 0 0.4rem;
+    background-size: 1.1rem;
+    line-height: 2rem;
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+  }
+
+  .jobOffer__btn {
+    margin: 0 auto;
+  }
+
+  .jobOffer__content {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+  }
+
+  .jobOffer__img {
+    margin-bottom: 3rem;
+  }
+
+  .jobOffer__img img {
+    max-width: 100%;
+    max-height: 30rem;
+  }
+
+  .jobOffer__content-text {
+    max-width: 30rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  .jobOffer__titleSubordinate {
+    margin-bottom: 1.5rem;
+    min-width: 21.5rem;
+  }
+
+  /*-----------------Statistics-----------------*/
+  .statistics {
+    margin-bottom: 10rem;
+  }
+
+  .statistics__block1 {
+    max-width: 85rem;
+    min-width: 0;
+    margin-bottom: 5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .statistics__block1-content {
+    max-width: 40rem;
+    margin-bottom: 4rem;
+  }
+
+  .statistics__titleMain {
+    margin-bottom: 3.5rem;
+  }
+
+  .statistics__block1-text {
+    max-width: 40rem;
+  }
+
+  .statistics__block1-text:nth-child(2) {
+    margin-bottom: 4.5rem;
+  }
+
+  .statistics__block1-img {
+    max-width: 35rem;
+  }
+
+  .statistics__block2 {
+    min-width: 0;
+    max-width: 40rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .statistics__block2-textImg__titleSubordinate {
+    font-size: 2.3rem;
+    line-height: 2.7rem;
+    max-width: 20rem;
+    top: 38rem;
+    left: 8rem;
+  }
+
+  .statistics__block2-img {
+    order: 1;
+  }
+
+  .statistics__block2-img img {
+    max-width: 40rem;
+  }
+
+  .statistics__block2-text {
+    max-width: 26.5rem;
+    margin-bottom: 7rem;
+  }
+
+  /*-----------------Cards-----------------*/
+  .cards {
+    margin-bottom: 8rem;
+  }
+
+  .cards__titleMain {
+    max-width: 40rem;
+    margin: 0 auto 5rem auto;
+  }
+
+  .cards__content {
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .cards__content-item {
+    max-width: 40rem;
+    margin-bottom: 5rem;
+  }
+
+  .card__img {
+    margin-bottom: 2rem;
+    max-width: 27rem;
+    max-height: 25.5rem;
+  }
+
+  .card__text {
+    max-width: 23rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+  }
+
+  .card__titleSubordinate {
+    margin-bottom: 0.5srem;
+    font-size: 2rem;
+  }
+
+  /*-----------------excellence-----------------*/
+  .excellence {
+    margin-bottom: 13rem;
+  }
+
+  .excellence__preamble {
+    flex-wrap: wrap;
+    max-width: 40rem;
+    justify-content: center;
+    margin: 0 auto 8rem auto;
+  }
+
+  .excellence__preamble1 {
+    margin-right: 0;
+    min-width: 0;
+    max-width: 40rem;
+    order: 2;
+  }
+
+  .excellence__textBold {
+    max-width: 30rem;
+    padding-left: 1.2rem;
+
+    background: url(../img/marker.png) no-repeat 0 0.5rem;
+    background-size: 1.1rem;
+  }
+
+  .excellence__titleBig {
+    margin-bottom: 4rem;
+    max-width: 40rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5rem;
+  }
+
+  .excellence__text {
+    max-width: 48.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .excellence__preamble2 {
+    max-width: 68rem;
+  }
+
+  .excellence__content {
+    margin: 0 auto 12rem auto;
+    max-width: 40rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .excellence__flowers {
+    display: none;
+  }
+
+  .excellence__img {
+    margin-bottom: 5rem;
+  }
+
+  .excellence__img img {
+    max-width: 50rem;
+    max-height: 35rem;
+  }
+
+  .excellence__content-text {
+    max-width: 30rem;
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
+  .excellence__titleSubordinate {
+    margin-bottom: 2rem;
+    max-width: 30rem;
+    font-size: 2.2rem;
+  }
+
+  .excellence__mainText {
+    max-width: 30rem;
+  }
+
+  .excellence__titleMain {
+    margin-bottom: 3.5rem;
+  }
+
+  .excellence__main {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .excellence__main-text {
+    max-width: 50rem;
+    margin-bottom: 4rem;
+  }
+
+  .excellence__mainMessage {
+    min-width: 0;
+    min-width: 0;
+    width: 30rem;
+    max-width: 30rem;
+    height: 12rem;
+    border-radius: 2rem;
+    min-width: 0;
+    padding: 1rem 2rem;
+  }
+
+  .excellence__mainMessage::before {
+    width: 5rem;
+    height: 5rem;
+    margin: -5rem 0 5rem 0;
+    box-shadow: 1.3rem 1.3rem 0 0 #edd5d0;
+    top: 11rem;
+    left: -4rem;
+    z-index: -1;
+  }
+
+  .excellence__mainMessage-text {
+    max-width: 24rem;
+    line-height: 1.9rem;
+  }
+
+  /*-----------------payRise-----------------*/
+  .payRise {
+    margin-bottom: 13rem;
+  }
+
+  .payRise__titleMain {
+    margin: 0 auto 6rem auto;
+    max-width: 40rem;
+  }
+
+  .payRise__icons {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .payRise__icons-item {
+    max-width: 20rem;
+    width: 20rem;
+    margin-bottom: 3rem;
+  }
+
+  .payRise__icons-img {
+    margin-bottom: 1.2rem;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .payRise__icons__textBold {
+    color: #ce946b;
+    line-height: 1.2rem;
+    font-size: 1.2rem;
+  }
+
+  /*-----------------Feedback-----------------*/
+  .feedback {
+    height: 120rem;
+    max-width: 50rem;
+  }
+
+  .feedback__bg {
+    height: 120rem;
+    width: 450rem;
+  }
+
+  .feedback__img {
+    bottom: 8.5rem;
+  }
+
+  .feedback__blockContact {
+    max-width: 50rem;
+    justify-content: center;
+    margin-bottom: 3rem;
+  }
+
+  .feedback__form {
+    height: 63rem;
+    justify-content: center;
+  }
+
+  .feedback__form-contact {
+    margin-bottom: 1.5rem;
+  }
+
+  .feedback__form-contact:nth-child(n + 3) {
+    margin-bottom: 1.5rem;
+  }
+
+  .feedback__form__btn {
+    width: 40rem;
+    height: 11rem;
+    margin: 0 auto;
   }
 }

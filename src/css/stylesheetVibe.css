@@ -155,6 +155,7 @@
 /*-----------------Slant-----------------*/
 .slant {
   margin-bottom: 185px;
+  position: relative;
 }
 
 .slant__header {
@@ -207,7 +208,6 @@
 }
 
 .slant__btn {
-  position: relative;
   height: 27px;
   width: 27px;
   background-color: #fff;
@@ -223,6 +223,13 @@
   background: #ff9f5f;
 }
 
+.slant__btn_prev {
+  position: absolute;
+  z-index: 100000;
+  top: 75.5%;
+  left: 67%;
+}
+
 .slant__btn_prev::before {
   position: absolute;
   display: block;
@@ -233,6 +240,13 @@
   border-left: solid #e6b794 3px;
   transform: rotate(-45deg);
   margin-right: -2px;
+}
+
+.slant__btn_next {
+  position: absolute;
+  z-index: 100000;
+  top: 75.5%;
+  right: 22.5%;
 }
 
 .slant__btn_next::before {

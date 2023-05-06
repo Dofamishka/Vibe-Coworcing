@@ -195,3 +195,119 @@
     font-size: 1rem;
   }
 }
+
+@media (max-width: 540px) {
+  /*-----------------Header-----------------*/
+  .header {
+    margin-bottom: 7rem;
+  }
+
+  /*-----------------communication-----------------*/
+  .communication {
+    margin-bottom: 8rem;
+  }
+
+  .communication__titleBig {
+    margin: 0 auto 5.5rem auto;
+  }
+
+  .communication__data {
+    margin: 0 auto 7rem;
+    max-width: 50rem;
+    flex-wrap: wrap;
+  }
+
+  .communication__data-item {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+
+  .communication__data-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .communicationData__titleText {
+    margin-bottom: 0.8rem;
+  }
+
+  .communicationData__titleText img {
+    margin-right: 0.8rem;
+    max-height: 1.5rem;
+    max-width: 1.5rem;
+  }
+
+  .communicationData__titleSubordinate {
+    font-size: 2.5rem;
+  }
+
+  .communication__map {
+    max-width: 50rem;
+    margin-bottom: 0;
+  }
+
+  /*-----------------branches-----------------*/
+  .branches {
+    margin-bottom: 8rem;
+  }
+
+  .branches__titleBig {
+    margin: 0 auto 7.5rem auto;
+    max-width: 28.5rem;
+  }
+
+  .branches__item {
+    margin: 0 auto 13rem auto;
+    max-width: 50rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .branches__item-img {
+    margin-bottom: 4rem;
+  }
+
+  .branches__item-img img {
+    max-width: 38.5rem;
+    max-height: 28rem;
+  }
+
+  .branches__item-content {
+    max-width: 30rem;
+  }
+
+  .branches__titleMain {
+    margin-bottom: 3.5rem;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+  }
+
+  .branches__contact {
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    max-width: 26rem;
+  }
+
+  .branches__contact-M {
+    margin-bottom: 0.8rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    max-width: 26rem;
+  }
+
+  .branches__contact img {
+    max-width: 3rem;
+    max-height: 3rem;
+    margin-right: 1rem;
+  }
+
+  .branches__contact-M img {
+    max-width: 3rem;
+    max-height: 3rem;
+    margin-right: 1rem;
+  }
+
+  .branches__expand-link {
+    font-size: 1rem;
+  }
+}

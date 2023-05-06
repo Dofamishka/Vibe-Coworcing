@@ -317,3 +317,180 @@
     line-height: 2rem;
   }
 }
+
+@media (max-width: 540px) {
+  /*-----------------Header-----------------*/
+  .intro__container {
+    width: 100%;
+    min-width: 100%;
+    min-height: 0;
+    height: 90vh;
+    justify-content: center;
+
+    background: url("../img/Vacancies.img/bg-header.png") 20% no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+  .intro__item-vacancies {
+    max-width: 90rem;
+    margin: 0 5rem;
+  }
+
+  .intro__content {
+    max-width: 38rem;
+    min-width: 0;
+    text-align: center;
+  }
+
+  .intro__textMain {
+    margin-bottom: 10%;
+    line-height: 1.8rem;
+  }
+
+  .intro__btn {
+    width: 24rem;
+    height: 7rem;
+    font-size: 1.4rem;
+    margin: 0 auto;
+  }
+
+  /*-----------------Vacancies-----------------*/
+  .vacancies {
+    margin-bottom: 13rem;
+  }
+
+  .vacancies__btn {
+    margin-bottom: 10rem;
+  }
+
+  .vacancies__content {
+    margin-bottom: 6.5rem;
+  }
+
+  .vacancies__btn-button:first-child {
+    margin-right: 0.4rem;
+  }
+
+  .vacancies__btn-button {
+    font-size: 1.6rem;
+    line-height: 1.5rem;
+    height: 5.5rem;
+    width: 23.5rem;
+  }
+
+  .vacancies__card {
+    padding: 4.4rem 0;
+    border-bottom: 0.1rem solid;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .vacancies__card:first-child {
+    padding: 0 0 4.4rem 0;
+  }
+
+  .vacancies__card-title {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    max-width: 40rem;
+    margin-bottom: 3rem;
+  }
+
+  .vacancies__card__textBold {
+    width: 19rem;
+    line-height: 1.8rem;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    margin-bottom: 3rem;
+  }
+
+  .vacancies__card-btn {
+    height: 7rem;
+    width: 23rem;
+    font-size: 1.6rem;
+    line-height: 1.1rem;
+  }
+
+  .vacancies__expand-link {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+
+  /*-----------------Subscription-----------------*/
+  .subscription {
+    margin-bottom: 11rem;
+  }
+
+  .subscription__container {
+    height: 31.5rem;
+    max-width: 50rem;
+  }
+
+  .subscription__photo {
+    transform: translateY(5.9rem);
+    max-width: 40.5rem;
+  }
+
+  .subscription__photo-img {
+    height: 100%;
+    max-width: 24.5rem;
+  }
+
+  .subscription__titleMain {
+    margin: 0;
+    max-width: 57rem;
+    transform: translateX(-7.5rem);
+    margin-bottom: 4rem;
+  }
+
+  .subscription__btn {
+    height: 7rem;
+    width: 20rem;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  /*-----------------Worth-----------------*/
+  .worth {
+    margin-bottom: 12rem;
+  }
+
+  .worth__titleBig {
+    max-width: 65.5rem;
+    line-height: 4.3rem;
+    margin: 0 auto 6.5rem auto;
+  }
+
+  .worth__content {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .worth__icon {
+    margin-bottom: 2.5rem;
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .worth__card {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+
+  .worth__card:nth-child(n + 2) {
+    display: none;
+  }
+
+  .worth__icon img {
+    max-width: 5rem;
+  }
+
+  .worth__card__textBold {
+    max-width: 30rem;
+    line-height: 2rem;
+    font-size: 2rem;
+  }
+}

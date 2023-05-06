@@ -557,6 +557,7 @@
   .founders__quote-address {
     margin: 0 auto;
     font-size: 1.2rem;
+    line-height: 1.6rem;
   }
 
   .founders__slider {
@@ -623,13 +624,367 @@
   }
 }
 
-@media (max-width: 320px) {
-  [class*="__container"] {
-    max-width: 240px;
+@media (max-width: 540px) {
+  /*-----------------Header-----------------*/
+  .intro__container {
+    flex-direction: column;
+    justify-content: center;
   }
 
-  [class*="__titleBig"] {
-    font-size: 25px;
-    line-height: 58px;
+  .intro__titleBig {
+    max-width: 45rem;
+    margin-bottom: 5%;
+  }
+
+  .btn__intro {
+    margin: 0 auto 0 auto;
+    max-width: 9rem;
+    max-height: 9rem;
+  }
+
+  /*-----------------Branches-----------------*/
+  .branches {
+    margin-bottom: 20rem;
+  }
+
+  .branches__paragraph {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  .branches__item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .branhes__data {
+    width: 30rem;
+  }
+
+  .branhes__data:nth-child(3n) {
+    max-width: 30rem;
+  }
+
+  .branhes__data:nth-child(5n) {
+    margin: 0;
+  }
+
+  .branches__number {
+    font-size: 10rem;
+    line-height: 11rem;
+  }
+
+  .branches__title {
+    font-size: 4rem;
+    line-height: 5rem;
+  }
+
+  .branches__textBold {
+    margin-bottom: 8rem;
+    max-width: 30rem;
+  }
+
+  .branchesExplanation__textBold {
+    background: url(../img/marker.png) no-repeat 0 0.2rem;
+    background-size: 1.3rem;
+    padding-left: 1.7rem;
+  }
+
+  /*-----------------Plans-----------------*/
+  .plans {
+    margin-bottom: 3rem;
+  }
+
+  .plans__titleBig {
+    max-width: 37rem;
+    margin: 0 auto 5.5rem auto;
+  }
+
+  .plansSubtitle__titleBig {
+    margin-bottom: 1.7rem;
+  }
+
+  .plans__text {
+    max-width: 74.6rem;
+  }
+
+  /*----------Diagramma------------*/
+  .diagramma {
+    margin-bottom: 0rem;
+  }
+
+  .diagramma__container {
+    height: 80rem;
+    max-height: 100%;
+    background-size: 45rem auto;
+  }
+
+  .diagramma__levl {
+    margin: 0;
+  }
+
+  .diagramma__titleBig {
+    margin-bottom: 1rem;
+  }
+
+  .diagramma__text {
+    max-width: 48.6rem;
+  }
+
+  .diagramma__titleMain {
+    top: 30%;
+    left: 5%;
+  }
+
+  /*-----------------Slant-----------------*/
+  .slant {
+    margin-bottom: 18rem;
+  }
+
+  .slant__titleBig {
+    margin: 0 auto 3rem auto;
+  }
+
+  .slant__text {
+    max-width: 65rem;
+    margin: 0 auto 4.5rem auto;
+  }
+
+  .slant__slider {
+    margin-bottom: 3%;
+    flex-direction: column;
+  }
+
+  .slant__img {
+    width: 100%;
+    z-index: 1000;
+    margin-bottom: 3rem;
+  }
+
+  .slant__img img {
+    width: 100%;
+    max-width: 59rem;
+    max-height: 39.5rem;
+  }
+
+  .slant__specifiation {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .slant__navigation {
+    max-width: 40rem;
+    margin: 0 auto;
+  }
+
+  .slant__textBold {
+    margin-bottom: 4rem;
+    line-height: 2rem;
+    max-width: 40rem;
+    background: url(../img/marker.png) no-repeat 0 0.2rem;
+    background-size: 1.3rem;
+    padding-left: 1.7rem;
+  }
+
+  .slant__btn {
+    height: 5rem;
+    width: 5rem;
+    border: 0.1rem solid #dedee5;
+  }
+
+  .slant__btn_prev::before {
+    height: 1rem;
+    width: 1rem;
+    margin-right: -0.2rem;
+  }
+
+  .slant__btn_next::before {
+    height: 1rem;
+    width: 1rem;
+    margin-right: 0.2rem;
+  }
+
+  .slant__number {
+    padding: 0 5rem;
+  }
+
+  .slant__active {
+    font-size: 4.6rem;
+  }
+
+  .slant__indicators {
+    display: none;
+  }
+
+  /*-----------------Facilities-----------------*/
+  .facilities {
+    margin-bottom: 10rem;
+  }
+
+  .facilities__titleBig {
+    max-width: 70rem;
+  }
+
+  .facilities__list {
+    height: 50rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .facilities__list-item {
+    flex-basis: 60%;
+    margin: 0 auto 5rem auto;
+  }
+
+  .facilities__list-item:nth-child(3n + 1) {
+    margin: 0 auto 5rem auto;
+  }
+
+  .facilities__list-item:nth-child(n + 2) {
+    display: none;
+  }
+  .facilities__list-number img {
+    max-width: 30rem;
+    height: 29rem;
+  }
+  .facilities__list-number:first-child img {
+    max-width: 30rem;
+    height: 29rem;
+  }
+
+  .facilities__textBold {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    max-width: 40rem;
+  }
+
+  /*-----------------Founders-----------------*/
+  .founders {
+    margin-bottom: 15rem;
+  }
+
+  .founders__titleBig {
+    margin: 0 auto 6.5rem auto;
+    max-width: 50rem;
+  }
+
+  .founders__item {
+    margin-bottom: 6rem;
+    max-width: 50rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .founders__item-img {
+    width: 40rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .founders__img-proper {
+    min-width: 0;
+    max-width: 40rem;
+    min-height: 0;
+    max-height: 42rem;
+  }
+
+  .founders__item-content {
+    width: 40rem;
+    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .founders__icon {
+    display: none;
+  }
+
+  .founders__quote {
+    max-width: 31rem;
+    margin-bottom: 3rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  .founders__quote-address h3 {
+    font-size: 1.8rem;
+    line-height: 1.9rem;
+  }
+
+  .founders__quote-address {
+    font-size: 1.2rem;
+    order: -1;
+    margin: 0;
+    align-self: flex-end;
+    direction: rtl;
+    margin-bottom: 3rem;
+    line-height: 1.9rem;
+  }
+
+  .founders__slider {
+    margin-bottom: 8%;
+    justify-content: center;
+  }
+
+  .founders__slider-img {
+    max-width: 27.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .founders__slider-item:nth-child(n + 2) {
+    display: none;
+  }
+
+  .founders__slider-line {
+    height: 2rem;
+    max-width: 40rem;
+  }
+
+  .founders__slider-indicator {
+    height: 0.1rem;
+    width: 33.3333%;
+  }
+
+  .founders__slider_active {
+    height: 0.2rem;
+  }
+
+  /*-----------------Advantage-----------------*/
+  .advantage {
+    margin-bottom: 4rem;
+  }
+
+  .advantage__titleBig {
+    max-width: 40rem;
+    margin: 0 auto 9rem auto;
+  }
+
+  .advantage__item {
+    max-width: 50rem;
+    height: 30rem;
+    justify-content: center;
+  }
+
+  .advantage__element {
+    max-width: 40rem;
+    width: 100%;
+    height: 30rem;
+    text-align: center;
+    margin: 0;
+    align-self: center;
+  }
+
+  .advantage__element:nth-child(n + 2) {
+    display: none;
+  }
+  .advantage__icon {
+    max-width: 10.5rem;
+    max-height: 10.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .advantage__textBold {
+    width: 20rem;
+    line-height: 2rem;
+    margin: 0 auto;
   }
 }
