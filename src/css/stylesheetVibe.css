@@ -175,11 +175,19 @@
   margin-bottom: 4%;
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+display: none;
+}
+
+.slant__slider.curry {
+display: flex;
 }
 
 .slant__img {
+  max-width: 70%;
   width: 70%;
   z-index: 1000;
+  margin-bottom: 40px;
 }
 
 .slant__img img {
@@ -188,7 +196,7 @@
 
 .slant__specifiation {
   margin-left: 7%;
-  width: 30%;
+  max-width: 30%;
 }
 
 .slant__textBold {
@@ -296,7 +304,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 186px;
+  width: 185px;
   padding-left: 96px;
 }
 
