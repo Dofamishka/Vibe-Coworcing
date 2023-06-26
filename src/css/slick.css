@@ -1,0 +1,162 @@
+/* Слайдер */
+.slick-slider {
+}
+/* Слайдер запущен */
+.slick-slider.slick-initialized {
+}
+/* Слайдер с точками */
+.slick-slider.slick-dotted {
+}
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+/* Лента слайдов */
+.slick-track {
+  display: flex;
+}
+/* Слайд */
+.slick-slide {
+  margin: 0 30px;
+}
+/* Слайд активный (показывается) */
+.slick-slide.slick-active {
+}
+/* Слайд основной */
+.slick-slide.slick-current {
+}
+/* Слайд по центру */
+.slick-slide.slick-center {
+}
+/* Клонированный слайд */
+.slick-slide.slick-cloned {
+}
+/* Стрелка */
+.slick-arrow {
+}
+/* Стрелка влево */
+.slick-arrow.slick-prev {
+}
+/* Стрелка вправо */
+.slick-arrow.slick-next {
+}
+/* Стрелка не активная */
+.slick-arrow.slick-disabled {
+}
+/* Точки (булиты) */
+.slick-dots {
+}
+.slick-dots li {
+}
+/* Активная точка */
+.slick-dots li.slick-active {
+}
+/* Элемент точки */
+.slick-dots li button {
+}
+
+/*???????????????? INDEX.HTML/SLANT ???????????????????*/
+.slant__slider-main {
+  position: relative;
+  padding: 0;
+}
+
+.slant .slick-prev {
+  position: absolute;
+  font-size: 0;
+  height: 27px;
+  width: 27px;
+  background-color: #fff;
+  border: 1px solid #dedee5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.8s;
+  top: 67%;
+  right: 25%;
+  z-index: 100000000;
+}
+
+.slant .slick-prev:hover {
+  background: #ff9f5f;
+}
+
+.slant .slick-prev::before {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 7.14px;
+  width: 7.14px;
+  border-top: solid#E6B794 3px;
+  border-left: solid #e6b794 3px;
+  transform: rotate(-45deg);
+  margin-right: -2px;
+}
+
+.slant .slick-next {
+  font-size: 0;
+  height: 27px;
+  width: 27px;
+  background-color: #fff;
+  border: 1px solid #dedee5;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.8s;
+  position: absolute;
+  top: 67%;
+  right: 8%;
+}
+
+.slant .slick-next:hover {
+  background: #ff9f5f;
+}
+
+.slant .slick-next::before {
+  position: absolute;
+  display: block;
+  content: "";
+  height: 7.14px;
+  width: 7.41px;
+  border-top: solid#E6B794 3px;
+  border-left: solid #e6b794 3px;
+  transform: rotate(130deg);
+  margin-right: 2px;
+}
+
+.slant .slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 200px;
+  padding-left: 120px;
+}
+
+.slant .slick-dots li {
+  width: 4px;
+  height: 4px;
+  background: #b1b1b3;
+  border-radius: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0;
+}
+
+.slant .slick-dots .slick-active {
+  background: #c88c61;
+}
+
+.slant .slick-dots .slick-active:before {
+  position: absolute;
+  content: "";
+  border-radius: 50%;
+  height: 14px;
+  width: 14px;
+  background: transparent;
+  z-index: -1;
+  border: solid 1px #c88c61;
+}
