@@ -792,6 +792,7 @@
   .slant__specifiation {
     margin-left: 0;
     width: 100%;
+    max-width: 65%;
   }
 
   .slant__navigation {
@@ -802,7 +803,7 @@
   .slant__textBold {
     margin-bottom: 4rem;
     line-height: 2rem;
-    max-width: 40rem;
+    max-width: 100%;
     background: url(../img/marker.png) no-repeat 0 0.2rem;
     background-size: 1.3rem;
     padding-left: 1.7rem;
@@ -836,6 +837,26 @@
 
   .slant__indicators {
     display: none;
+  }
+
+  .slant .slick-next {
+    height: 22px;
+    width: 22px;
+    top: 7rem;
+    right: 10%;
+  }
+
+  .slant .slick-prev {
+    height: 22px;
+    width: 22px;
+    top: 7rem;
+    left: 10%;
+  }
+
+  .slant .slick-dots {
+    padding-left: 0;
+    width: 100px;
+    margin: 0 auto;
   }
 
   /*-----------------Facilities-----------------*/
